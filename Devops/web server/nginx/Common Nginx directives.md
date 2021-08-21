@@ -57,3 +57,5 @@ location ~ /shipment/?(.*) {
 ```
 
 More rewrite examples at [here](https://www.thegeekstuff.com/2017/08/nginx-rewrite-examples/)
+
+Tags: #nginx , #devops, #webserver

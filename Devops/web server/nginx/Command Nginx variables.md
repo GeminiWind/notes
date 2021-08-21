@@ -33,3 +33,5 @@
 - `$server_port`: Request the port number to reach the server.  
 - `$uri` : Without the current URI of the request parameter, $uri does not contain the host name, such as "/foo/bar.html". This value may be inconsistent with $request_uri. 
 - `$http_referer` : Client connected through that station
+
+Tags: #nginx , #devops, #webserver

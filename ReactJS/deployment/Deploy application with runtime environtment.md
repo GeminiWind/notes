@@ -5,7 +5,7 @@ Our idea is that utilizing the `ENTRYPOINT` of `Dockerfile`. Whenever container 
 The flow is described as below
 
 ```mermaid
-graph LR
+graph TB
 	ContainerCreating{Is container creating ?} -- Yes --> ExecuteEntrypoint(Execute script in ENTRYPOINT) --> CreateEnvConfigFile(Run script to create env-config.js file by parsing current environment) --> CopyEnvConfigFileToBuild(Copy env-config.js to your build) -->InjectEnvConfigFile(Inject env-config.js file into index.html to make the variable can accessible in global scope) --> ConsumeEnvVar(Consume envrionment variable)
 ```
 

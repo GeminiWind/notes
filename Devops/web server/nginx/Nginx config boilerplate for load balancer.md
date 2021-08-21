@@ -104,3 +104,5 @@ server {
 	}
 }
 ```
+
+Tags: #nginx , #devops, #webserver

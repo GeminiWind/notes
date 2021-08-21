@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Database/Postgres/Index.md",
+            "file": "Shell/Bash/Tips & Tricks.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Database/Postgres/Index.md",
+                "file": "Shell/Bash/Tips & Tricks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Database/Postgres/Index.md"
+                "file": "Shell/Bash/Tips & Tricks.md"
               }
             }
           }
@@ -106,15 +106,15 @@
   },
   "active": "23243410cae67792",
   "lastOpenFiles": [
-    "Database/Postgres/Index.md",
-    "Database/Postgres/Scaling in k8s.md",
-    "Database/Postgres/Useful commands.md",
-    "Devops/container orchestration/kubernetes(k8s)/components/CronJob.md",
-    "Devops/container orchestration/kubernetes(k8s)/components/ConfigMap.md",
-    "Devops/container orchestration/kubernetes(k8s)/components/Ingress.md",
-    "Cheatsheet/vim.md",
-    "Cheatsheet/markdown.md",
-    "Architecture/Functional Programming/Compose.md",
-    "Architecture/Functional Programming/Pure function.md"
+    "Shell/Bash/Tips & Tricks.md",
+    "Shell/Bash/Fundamental.md",
+    "ReactJS/Tips & Tricks.md",
+    "ReactJS/Redux.md",
+    "ReactJS/Library Cheatsheet.md",
+    "ReactJS/deployment/Deploy application with runtime environtment.md",
+    "Devops/References.md",
+    "Devops/web server/nginx/Nginx Location Regrex.md",
+    "Devops/web server/nginx/Nginx Rate Limit.md",
+    "Devops/web server/nginx/Nginx Custom Auth For Request.md"
   ]
 }

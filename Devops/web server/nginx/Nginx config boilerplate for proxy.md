@@ -27,4 +27,4 @@ server {
 }
 ```
 
-Tags: #nginx, #reserved-proxy
+Tags: #nginx, #reserved-proxy, #devops 

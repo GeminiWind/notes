@@ -1,6 +1,90 @@
 {
   "recentFiles": [
     {
+      "basename": "Tips & Tricks",
+      "path": "Shell/Bash/Tips & Tricks.md"
+    },
+    {
+      "basename": "Fundamental",
+      "path": "Shell/Bash/Fundamental.md"
+    },
+    {
+      "basename": "Tips & Tricks",
+      "path": "ReactJS/Tips & Tricks.md"
+    },
+    {
+      "basename": "Redux",
+      "path": "ReactJS/Redux.md"
+    },
+    {
+      "basename": "Library Cheatsheet",
+      "path": "ReactJS/Library Cheatsheet.md"
+    },
+    {
+      "basename": "Deploy application with runtime environtment",
+      "path": "ReactJS/deployment/Deploy application with runtime environtment.md"
+    },
+    {
+      "basename": "References",
+      "path": "Devops/References.md"
+    },
+    {
+      "basename": "Nginx Location Regrex",
+      "path": "Devops/web server/nginx/Nginx Location Regrex.md"
+    },
+    {
+      "basename": "Nginx Rate Limit",
+      "path": "Devops/web server/nginx/Nginx Rate Limit.md"
+    },
+    {
+      "basename": "Nginx Custom Auth For Request",
+      "path": "Devops/web server/nginx/Nginx Custom Auth For Request.md"
+    },
+    {
+      "basename": "Nginx config full",
+      "path": "Devops/web server/nginx/Nginx config full.md"
+    },
+    {
+      "basename": "Nginx config boilerplate for single page app",
+      "path": "Devops/web server/nginx/Nginx config boilerplate for single page app.md"
+    },
+    {
+      "basename": "Nginx config boilerplate for proxy",
+      "path": "Devops/web server/nginx/Nginx config boilerplate for proxy.md"
+    },
+    {
+      "basename": "Nginx config boilerplate for load balancer",
+      "path": "Devops/web server/nginx/Nginx config boilerplate for load balancer.md"
+    },
+    {
+      "basename": "Common Nginx directives",
+      "path": "Devops/web server/nginx/Common Nginx directives.md"
+    },
+    {
+      "basename": "Command Nginx variables",
+      "path": "Devops/web server/nginx/Command Nginx variables.md"
+    },
+    {
+      "basename": "Authentication",
+      "path": "Architecture/Microservice/Authentication.md"
+    },
+    {
+      "basename": "Circuit breaker",
+      "path": "Architecture/Microservice/Circuit breaker.md"
+    },
+    {
+      "basename": "Centralized logging",
+      "path": "Architecture/Microservice/Centralized logging.md"
+    },
+    {
+      "basename": "vim",
+      "path": "Text Editor/vim.md"
+    },
+    {
+      "basename": "markdown",
+      "path": "Text Editor/markdown.md"
+    },
+    {
       "basename": "Index",
       "path": "Database/Postgres/Index.md"
     },
@@ -23,14 +107,6 @@
     {
       "basename": "Ingress",
       "path": "Devops/container orchestration/kubernetes(k8s)/components/Ingress.md"
-    },
-    {
-      "basename": "vim",
-      "path": "Cheatsheet/vim.md"
-    },
-    {
-      "basename": "markdown",
-      "path": "Cheatsheet/markdown.md"
     },
     {
       "basename": "Compose",
@@ -57,36 +133,8 @@
       "path": "Devops/certificate/Local development.md"
     },
     {
-      "basename": "Tips & Tricks",
-      "path": "Shell/Bash/Tips & Tricks.md"
-    },
-    {
-      "basename": "Fundamental",
-      "path": "Shell/Bash/Fundamental.md"
-    },
-    {
-      "basename": "References",
-      "path": "Devops/References.md"
-    },
-    {
       "basename": "Docker",
       "path": "Devops/container/Docker.md"
-    },
-    {
-      "basename": "Redux",
-      "path": "ReactJS/Redux.md"
-    },
-    {
-      "basename": "Tips & Tricks",
-      "path": "ReactJS/Tips & Tricks.md"
-    },
-    {
-      "basename": "Library Cheatsheet",
-      "path": "ReactJS/Library Cheatsheet.md"
-    },
-    {
-      "basename": "Deploy application with runtime environtment",
-      "path": "ReactJS/deployment/Deploy application with runtime environtment.md"
     },
     {
       "basename": "Interesting questions",
@@ -115,18 +163,6 @@
     {
       "basename": "Storage",
       "path": "Devops/container orchestration/kubernetes(k8s)/components/Storage.md"
-    },
-    {
-      "basename": "Circuit breaker",
-      "path": "Architecture/Microservice/Circuit breaker.md"
-    },
-    {
-      "basename": "Centralized logging",
-      "path": "Architecture/Microservice/Centralized logging.md"
-    },
-    {
-      "basename": "Authentication",
-      "path": "Architecture/Microservice/Authentication.md"
     },
     {
       "basename": "Deployment",
@@ -163,42 +199,6 @@
     {
       "basename": "EC2",
       "path": "AWS/EC2.md"
-    },
-    {
-      "basename": "S3",
-      "path": "AWS/S3.md"
-    },
-    {
-      "basename": "Communication",
-      "path": "Architecture/Microservice/Communication.md"
-    },
-    {
-      "basename": "Nginx config boilerplate for single page app",
-      "path": "Devops/web server/nginx/Nginx config boilerplate for single page app.md"
-    },
-    {
-      "basename": "Nginx config boilerplate for proxy",
-      "path": "Devops/web server/nginx/Nginx config boilerplate for proxy.md"
-    },
-    {
-      "basename": "Nginx config boilerplate for load balancer",
-      "path": "Devops/web server/nginx/Nginx config boilerplate for load balancer.md"
-    },
-    {
-      "basename": "Common Nginx directives",
-      "path": "Devops/web server/nginx/Common Nginx directives.md"
-    },
-    {
-      "basename": "Command Nginx variables",
-      "path": "Devops/web server/nginx/Command Nginx variables.md"
-    },
-    {
-      "basename": "Nginx Location Regrex",
-      "path": "Devops/web server/nginx/Nginx Location Regrex.md"
-    },
-    {
-      "basename": "Nginx Rate Limit",
-      "path": "Devops/web server/nginx/Nginx Rate Limit.md"
     }
   ],
   "omittedPaths": [],
