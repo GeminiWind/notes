@@ -39,6 +39,47 @@ echo 'linuxhint.com' | base64
 echo 'bGludXhoaW50LmNvbQo=' | base64 --decode
 ```
 
+
+## Importing function from another bash file
+
+**script**
+```bash
+foo ()    { echo "foo()"; }
+
+bar ()    { echo "bar()"; }
+
+script () {
+  ARG1=$1
+  ARG2=$2
+  #
+  echo "Running '$RUNNING'..."
+  echo "script() - all args:  $@"
+  echo "script() -     ARG1:  $ARG1"
+  echo "script() -     ARG2:  $ARG2"
+  #
+  foo
+  bar
+}
+
+RUNNING="$(basename $0)"
+
+if [[ "$RUNNING" == "script" ]]
+then
+  script "$@"
+fi
+```
+
+**runtests**
+
+```bash
+#!/bin/bash
+
+source script 
+
+# execute 'script' function in sourced file 'script'
+script arg1 arg2 arg3
+```
+
 ## Parsing args into bash shell file
 
 ```bash
