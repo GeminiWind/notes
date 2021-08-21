@@ -1,6 +1,110 @@
 {
   "recentFiles": [
     {
+      "basename": "Index",
+      "path": "Database/Postgres/Index.md"
+    },
+    {
+      "basename": "Scaling in k8s",
+      "path": "Database/Postgres/Scaling in k8s.md"
+    },
+    {
+      "basename": "Useful commands",
+      "path": "Database/Postgres/Useful commands.md"
+    },
+    {
+      "basename": "CronJob",
+      "path": "Devops/container orchestration/kubernetes(k8s)/components/CronJob.md"
+    },
+    {
+      "basename": "ConfigMap",
+      "path": "Devops/container orchestration/kubernetes(k8s)/components/ConfigMap.md"
+    },
+    {
+      "basename": "Ingress",
+      "path": "Devops/container orchestration/kubernetes(k8s)/components/Ingress.md"
+    },
+    {
+      "basename": "vim",
+      "path": "Cheatsheet/vim.md"
+    },
+    {
+      "basename": "markdown",
+      "path": "Cheatsheet/markdown.md"
+    },
+    {
+      "basename": "Compose",
+      "path": "Architecture/Functional Programming/Compose.md"
+    },
+    {
+      "basename": "Pure function",
+      "path": "Architecture/Functional Programming/Pure function.md"
+    },
+    {
+      "basename": "Point-free",
+      "path": "Architecture/Functional Programming/Point-free.md"
+    },
+    {
+      "basename": "Pipe",
+      "path": "Architecture/Functional Programming/Pipe.md"
+    },
+    {
+      "basename": "Curry",
+      "path": "Architecture/Functional Programming/Curry.md"
+    },
+    {
+      "basename": "Local development",
+      "path": "Devops/certificate/Local development.md"
+    },
+    {
+      "basename": "Tips & Tricks",
+      "path": "Shell/Bash/Tips & Tricks.md"
+    },
+    {
+      "basename": "Fundamental",
+      "path": "Shell/Bash/Fundamental.md"
+    },
+    {
+      "basename": "References",
+      "path": "Devops/References.md"
+    },
+    {
+      "basename": "Docker",
+      "path": "Devops/container/Docker.md"
+    },
+    {
+      "basename": "Redux",
+      "path": "ReactJS/Redux.md"
+    },
+    {
+      "basename": "Tips & Tricks",
+      "path": "ReactJS/Tips & Tricks.md"
+    },
+    {
+      "basename": "Library Cheatsheet",
+      "path": "ReactJS/Library Cheatsheet.md"
+    },
+    {
+      "basename": "Deploy application with runtime environtment",
+      "path": "ReactJS/deployment/Deploy application with runtime environtment.md"
+    },
+    {
+      "basename": "Interesting questions",
+      "path": "NodeJS/Interesting questions.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Untitled.md"
+    },
+    {
+      "basename": "Flux Pattern",
+      "path": "Terminology/Flux Pattern.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Database/Postgres/Untitled.md"
+    },
+    {
       "basename": "Secret",
       "path": "Devops/container orchestration/kubernetes(k8s)/components/Secret.md"
     },
@@ -11,10 +115,6 @@
     {
       "basename": "Storage",
       "path": "Devops/container orchestration/kubernetes(k8s)/components/Storage.md"
-    },
-    {
-      "basename": "ConfigMap",
-      "path": "Devops/container orchestration/kubernetes(k8s)/components/ConfigMap.md"
     },
     {
       "basename": "Circuit breaker",
@@ -29,36 +129,8 @@
       "path": "Architecture/Microservice/Authentication.md"
     },
     {
-      "basename": "Useful commands",
-      "path": "Database/Postgres/Useful commands.md"
-    },
-    {
-      "basename": "Untitled",
-      "path": "Database/Postgres/Untitled.md"
-    },
-    {
-      "basename": "Scaling in k8s",
-      "path": "Database/Postgres/Scaling in k8s.md"
-    },
-    {
-      "basename": "Index",
-      "path": "Database/Postgres/Index.md"
-    },
-    {
-      "basename": "Deploy application with runtime environtment",
-      "path": "ReactJS/Deploy application with runtime environtment.md"
-    },
-    {
-      "basename": "Library Cheatsheet",
-      "path": "ReactJS/Library Cheatsheet.md"
-    },
-    {
       "basename": "Deployment",
       "path": "Devops/container orchestration/kubernetes(k8s)/components/Deployment.md"
-    },
-    {
-      "basename": "Ingress",
-      "path": "Devops/container orchestration/kubernetes(k8s)/components/Ingress.md"
     },
     {
       "basename": "CQRS",
@@ -101,26 +173,6 @@
       "path": "Architecture/Microservice/Communication.md"
     },
     {
-      "basename": "Flux Pattern",
-      "path": "Architecture/Flux Pattern.md"
-    },
-    {
-      "basename": "Untitled",
-      "path": "Untitled.md"
-    },
-    {
-      "basename": "Awesome functional programing",
-      "path": "NodeJS/Awesome functional programing.md"
-    },
-    {
-      "basename": "Interesting questions",
-      "path": "NodeJS/Interesting questions.md"
-    },
-    {
-      "basename": "Generate trusted certificate on local development",
-      "path": "Devops/web server/Generate trusted certificate on local development.md"
-    },
-    {
       "basename": "Nginx config boilerplate for single page app",
       "path": "Devops/web server/nginx/Nginx config boilerplate for single page app.md"
     },
@@ -147,50 +199,6 @@
     {
       "basename": "Nginx Rate Limit",
       "path": "Devops/web server/nginx/Nginx Rate Limit.md"
-    },
-    {
-      "basename": "Pod",
-      "path": "Devops/container orchestration/kubernetes(k8s)/components/Pod.md"
-    },
-    {
-      "basename": "Namespace",
-      "path": "Devops/container orchestration/kubernetes(k8s)/components/Namespace.md"
-    },
-    {
-      "basename": "CronJob",
-      "path": "Devops/container orchestration/kubernetes(k8s)/components/CronJob.md"
-    },
-    {
-      "basename": "vim",
-      "path": "Cheatsheet/vim.md"
-    },
-    {
-      "basename": "markdown",
-      "path": "Cheatsheet/markdown.md"
-    },
-    {
-      "basename": "Fundamental",
-      "path": "Shell/Bash/Fundamental.md"
-    },
-    {
-      "basename": "Tips & Tricks",
-      "path": "Shell/Bash/Tips & Tricks.md"
-    },
-    {
-      "basename": "Resource",
-      "path": "Devops/Resource.md"
-    },
-    {
-      "basename": "Kubernetes Cheatsheet",
-      "path": "Devops/container orchestration/kubernetes(k8s)/Kubernetes Cheatsheet.md"
-    },
-    {
-      "basename": "Tips & Tricks",
-      "path": "ReactJS/Tips & Tricks.md"
-    },
-    {
-      "basename": "Redux",
-      "path": "ReactJS/Redux.md"
     }
   ],
   "omittedPaths": [],

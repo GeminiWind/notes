@@ -6,7 +6,15 @@
 ## Prerequisites 
  - [mkert](https://github.com/FiloSottile/mkcert)
 
-## Generate certificate
+## Generate certificate for  local development
+
+To generate the certificate for `*.example.com`, use the following command:
+
+```shell
+mkcert example.com "*.example.com" example.test localhost 127.0.0.1 ::1
+```
+
+Then, the output will be key file  and certificate like
 
 ```bash
 $ mkcert -install
@@ -27,7 +35,9 @@ Created a new certificate valid for the following names 📜
 The certificate is at "./example.com+5.pem" and the key at "./example.com+5-key.pem" ✅
 ```
 
-## Using cert
+## Configure nginx to using certifcate
+
+Below is the Nginx configure to use certificate
 
 ```nginx
 server {  
@@ -55,4 +65,4 @@ server {
 
 ```
 
-Tags: #mkcert, #ssl
+Tags: #mkcert, #ssl, #devops 
