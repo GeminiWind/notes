@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Devops/container orchestration/kubernetes(k8s)/components/Secret.md",
+            "file": "Devops/container orchestration/kubernetes(k8s)/components/Service.md",
             "mode": "source"
           }
         }
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Devops/container orchestration/kubernetes(k8s)/components/Secret.md",
+                "file": "Devops/container orchestration/kubernetes(k8s)/components/Service.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Devops/container orchestration/kubernetes(k8s)/components/Secret.md"
+                "file": "Devops/container orchestration/kubernetes(k8s)/components/Service.md"
               }
             }
           }
@@ -115,8 +115,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "1f230d5373f02a38",
+  "active": "2f1dcad04123f8c1",
   "lastOpenFiles": [
+    "Devops/container orchestration/kubernetes(k8s)/components/Service.md",
+    "Devops/container orchestration/kubernetes(k8s)/components/Storage.md",
     "Devops/container orchestration/kubernetes(k8s)/components/Secret.md",
     "Devops/container orchestration/kubernetes(k8s)/components/ConfigMap.md",
     "Architecture/Microservice/Circuit breaker.md",
@@ -124,8 +126,6 @@
     "Architecture/Microservice/Authentication.md",
     "Database/Postgres/Useful commands.md",
     "Database/Postgres/Untitled.md",
-    "Database/Postgres/Scaling in k8s.md",
-    "Database/Postgres/Index.md",
-    "ReactJS/Deploy application with runtime environtment.md"
+    "Database/Postgres/Scaling in k8s.md"
   ]
 }

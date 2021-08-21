@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Service",
+      "path": "Devops/container orchestration/kubernetes(k8s)/components/Service.md"
+    },
+    {
+      "basename": "Storage",
+      "path": "Devops/container orchestration/kubernetes(k8s)/components/Storage.md"
+    },
+    {
       "basename": "Secret",
       "path": "Devops/container orchestration/kubernetes(k8s)/components/Secret.md"
     },
@@ -139,14 +147,6 @@
     {
       "basename": "Nginx Rate Limit",
       "path": "Devops/web server/nginx/Nginx Rate Limit.md"
-    },
-    {
-      "basename": "Storage",
-      "path": "Devops/container orchestration/kubernetes(k8s)/components/Storage.md"
-    },
-    {
-      "basename": "Service",
-      "path": "Devops/container orchestration/kubernetes(k8s)/components/Service.md"
     },
     {
       "basename": "Pod",

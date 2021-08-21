@@ -81,7 +81,7 @@ spec:
 
 ### LoadBalancer
 
-- To support loadalancer in cloud
+- To support load balancer in cloud
 
 
 ```yaml
