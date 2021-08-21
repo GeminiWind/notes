@@ -1,5 +1,7 @@
 # Secret 
 
+Used to store smaill amount info like token, password
+
 ## Create secret
 
 A `Secret` can contain user credentials required by pods to access a database. For example, a database connection string consists of a username and password. You can store the username in a file `./username.txt` and the password in a file `./password.txt` on your local machine.

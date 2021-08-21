@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Secret",
+      "path": "Devops/container orchestration/kubernetes(k8s)/components/Secret.md"
+    },
+    {
+      "basename": "ConfigMap",
+      "path": "Devops/container orchestration/kubernetes(k8s)/components/ConfigMap.md"
+    },
+    {
       "basename": "Circuit breaker",
       "path": "Architecture/Microservice/Circuit breaker.md"
     },
@@ -141,10 +149,6 @@
       "path": "Devops/container orchestration/kubernetes(k8s)/components/Service.md"
     },
     {
-      "basename": "Secret",
-      "path": "Devops/container orchestration/kubernetes(k8s)/components/Secret.md"
-    },
-    {
       "basename": "Pod",
       "path": "Devops/container orchestration/kubernetes(k8s)/components/Pod.md"
     },
@@ -155,10 +159,6 @@
     {
       "basename": "CronJob",
       "path": "Devops/container orchestration/kubernetes(k8s)/components/CronJob.md"
-    },
-    {
-      "basename": "ConfigMap",
-      "path": "Devops/container orchestration/kubernetes(k8s)/components/ConfigMap.md"
     },
     {
       "basename": "vim",
