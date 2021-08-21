@@ -1,0 +1,1 @@
+https://access.crunchydata.com/documentation/postgres-operator/5.0.0/tutorial/update-cluster/

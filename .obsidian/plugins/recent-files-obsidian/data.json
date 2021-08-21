@@ -1,0 +1,198 @@
+{
+  "recentFiles": [
+    {
+      "basename": "Circuit breaker",
+      "path": "Architecture/Microservice/Circuit breaker.md"
+    },
+    {
+      "basename": "Centralized logging",
+      "path": "Architecture/Microservice/Centralized logging.md"
+    },
+    {
+      "basename": "Authentication",
+      "path": "Architecture/Microservice/Authentication.md"
+    },
+    {
+      "basename": "Useful commands",
+      "path": "Database/Postgres/Useful commands.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Database/Postgres/Untitled.md"
+    },
+    {
+      "basename": "Scaling in k8s",
+      "path": "Database/Postgres/Scaling in k8s.md"
+    },
+    {
+      "basename": "Index",
+      "path": "Database/Postgres/Index.md"
+    },
+    {
+      "basename": "Deploy application with runtime environtment",
+      "path": "ReactJS/Deploy application with runtime environtment.md"
+    },
+    {
+      "basename": "Library Cheatsheet",
+      "path": "ReactJS/Library Cheatsheet.md"
+    },
+    {
+      "basename": "Deployment",
+      "path": "Devops/container orchestration/kubernetes(k8s)/components/Deployment.md"
+    },
+    {
+      "basename": "Ingress",
+      "path": "Devops/container orchestration/kubernetes(k8s)/components/Ingress.md"
+    },
+    {
+      "basename": "CQRS",
+      "path": "Architecture/Microservice/CQRS.md"
+    },
+    {
+      "basename": "ECR",
+      "path": "AWS/ECR.md"
+    },
+    {
+      "basename": "ECS",
+      "path": "AWS/ECS.md"
+    },
+    {
+      "basename": "DynamoDB",
+      "path": "AWS/DynamoDB.md"
+    },
+    {
+      "basename": "Cloudformation",
+      "path": "AWS/Cloudformation.md"
+    },
+    {
+      "basename": "Cloudfront",
+      "path": "AWS/Cloudfront.md"
+    },
+    {
+      "basename": "Lambda",
+      "path": "AWS/Lambda.md"
+    },
+    {
+      "basename": "EC2",
+      "path": "AWS/EC2.md"
+    },
+    {
+      "basename": "S3",
+      "path": "AWS/S3.md"
+    },
+    {
+      "basename": "Communication",
+      "path": "Architecture/Microservice/Communication.md"
+    },
+    {
+      "basename": "Flux Pattern",
+      "path": "Architecture/Flux Pattern.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Untitled.md"
+    },
+    {
+      "basename": "Awesome functional programing",
+      "path": "NodeJS/Awesome functional programing.md"
+    },
+    {
+      "basename": "Interesting questions",
+      "path": "NodeJS/Interesting questions.md"
+    },
+    {
+      "basename": "Generate trusted certificate on local development",
+      "path": "Devops/web server/Generate trusted certificate on local development.md"
+    },
+    {
+      "basename": "Nginx config boilerplate for single page app",
+      "path": "Devops/web server/nginx/Nginx config boilerplate for single page app.md"
+    },
+    {
+      "basename": "Nginx config boilerplate for proxy",
+      "path": "Devops/web server/nginx/Nginx config boilerplate for proxy.md"
+    },
+    {
+      "basename": "Nginx config boilerplate for load balancer",
+      "path": "Devops/web server/nginx/Nginx config boilerplate for load balancer.md"
+    },
+    {
+      "basename": "Common Nginx directives",
+      "path": "Devops/web server/nginx/Common Nginx directives.md"
+    },
+    {
+      "basename": "Command Nginx variables",
+      "path": "Devops/web server/nginx/Command Nginx variables.md"
+    },
+    {
+      "basename": "Nginx Location Regrex",
+      "path": "Devops/web server/nginx/Nginx Location Regrex.md"
+    },
+    {
+      "basename": "Nginx Rate Limit",
+      "path": "Devops/web server/nginx/Nginx Rate Limit.md"
+    },
+    {
+      "basename": "Storage",
+      "path": "Devops/container orchestration/kubernetes(k8s)/components/Storage.md"
+    },
+    {
+      "basename": "Service",
+      "path": "Devops/container orchestration/kubernetes(k8s)/components/Service.md"
+    },
+    {
+      "basename": "Secret",
+      "path": "Devops/container orchestration/kubernetes(k8s)/components/Secret.md"
+    },
+    {
+      "basename": "Pod",
+      "path": "Devops/container orchestration/kubernetes(k8s)/components/Pod.md"
+    },
+    {
+      "basename": "Namespace",
+      "path": "Devops/container orchestration/kubernetes(k8s)/components/Namespace.md"
+    },
+    {
+      "basename": "CronJob",
+      "path": "Devops/container orchestration/kubernetes(k8s)/components/CronJob.md"
+    },
+    {
+      "basename": "ConfigMap",
+      "path": "Devops/container orchestration/kubernetes(k8s)/components/ConfigMap.md"
+    },
+    {
+      "basename": "vim",
+      "path": "Cheatsheet/vim.md"
+    },
+    {
+      "basename": "markdown",
+      "path": "Cheatsheet/markdown.md"
+    },
+    {
+      "basename": "Fundamental",
+      "path": "Shell/Bash/Fundamental.md"
+    },
+    {
+      "basename": "Tips & Tricks",
+      "path": "Shell/Bash/Tips & Tricks.md"
+    },
+    {
+      "basename": "Resource",
+      "path": "Devops/Resource.md"
+    },
+    {
+      "basename": "Kubernetes Cheatsheet",
+      "path": "Devops/container orchestration/kubernetes(k8s)/Kubernetes Cheatsheet.md"
+    },
+    {
+      "basename": "Tips & Tricks",
+      "path": "ReactJS/Tips & Tricks.md"
+    },
+    {
+      "basename": "Redux",
+      "path": "ReactJS/Redux.md"
+    }
+  ],
+  "omittedPaths": [],
+  "maxLength": null
+}

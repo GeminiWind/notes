@@ -1,0 +1,1 @@
+view -> action -> store -> view 
