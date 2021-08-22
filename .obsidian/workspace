@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "335f7d444c9b190a",
+        "id": "9d6c1315080d08b0",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Devops/provision tool/terraform/Testing.md",
+            "file": "Devops/provision tool/terraform/Manage Terrafrom State.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Devops/provision tool/terraform/Testing.md",
+                "file": "Devops/provision tool/terraform/Manage Terrafrom State.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Devops/provision tool/terraform/Testing.md"
+                "file": "Devops/provision tool/terraform/Manage Terrafrom State.md"
               }
             }
           }
@@ -104,17 +104,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "335f7d444c9b190a",
+  "active": "9d6c1315080d08b0",
   "lastOpenFiles": [
+    "Devops/provision tool/terraform/Manage Terrafrom State.md",
+    "Devops/provision tool/terraform/Testing your Terraform.md",
+    "Devops/provision tool/terraform/Testing.md",
     "Devops/provision tool/terraform/Untitled.md",
     "AWS/Route53.md",
     "AWS/S3.md",
     "AWS/SNS.md",
     "AWS/SQS.md",
     "AWS/VPC.md",
-    "NodeJS/terminology.md",
-    "NodeJS/Interesting questions.md",
-    "NodeJS/Untitled.md",
-    "AWS/Cloudfront.md"
+    "NodeJS/terminology.md"
   ]
 }
