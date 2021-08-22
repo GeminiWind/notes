@@ -1,12 +1,84 @@
 {
   "recentFiles": [
     {
+      "basename": "VPC",
+      "path": "AWS/VPC.md"
+    },
+    {
+      "basename": "Cloudfront",
+      "path": "AWS/Cloudfront.md"
+    },
+    {
+      "basename": "DynamoDB",
+      "path": "AWS/DynamoDB.md"
+    },
+    {
+      "basename": "EC2",
+      "path": "AWS/EC2.md"
+    },
+    {
+      "basename": "Lambda",
+      "path": "AWS/Lambda.md"
+    },
+    {
+      "basename": "S3",
+      "path": "AWS/S3.md"
+    },
+    {
+      "basename": "SNS",
+      "path": "AWS/SNS.md"
+    },
+    {
+      "basename": "SQS",
+      "path": "AWS/SQS.md"
+    },
+    {
+      "basename": "vim",
+      "path": "Text Editor/vim.md"
+    },
+    {
+      "basename": "Route53",
+      "path": "AWS/Route53.md"
+    },
+    {
+      "basename": "ECS",
+      "path": "AWS/ECS.md"
+    },
+    {
+      "basename": "AutoScaling",
+      "path": "AWS/AutoScaling.md"
+    },
+    {
+      "basename": "Cloudformation",
+      "path": "AWS/Cloudformation.md"
+    },
+    {
+      "basename": "ECR",
+      "path": "AWS/ECR.md"
+    },
+    {
+      "basename": "RSA",
+      "path": "Algorithm/RSA.md"
+    },
+    {
+      "basename": "markdown",
+      "path": "Text Editor/markdown.md"
+    },
+    {
       "basename": "Tips & Tricks",
       "path": "Shell/Bash/Tips & Tricks.md"
     },
     {
       "basename": "Fundamental",
       "path": "Shell/Bash/Fundamental.md"
+    },
+    {
+      "basename": "Nginx config full",
+      "path": "Devops/web server/nginx/Nginx config full.md"
+    },
+    {
+      "basename": "Nginx Custom Auth For Request",
+      "path": "Devops/web server/nginx/Nginx Custom Auth For Request.md"
     },
     {
       "basename": "Tips & Tricks",
@@ -35,14 +107,6 @@
     {
       "basename": "Nginx Rate Limit",
       "path": "Devops/web server/nginx/Nginx Rate Limit.md"
-    },
-    {
-      "basename": "Nginx Custom Auth For Request",
-      "path": "Devops/web server/nginx/Nginx Custom Auth For Request.md"
-    },
-    {
-      "basename": "Nginx config full",
-      "path": "Devops/web server/nginx/Nginx config full.md"
     },
     {
       "basename": "Nginx config boilerplate for single page app",
@@ -75,14 +139,6 @@
     {
       "basename": "Centralized logging",
       "path": "Architecture/Microservice/Centralized logging.md"
-    },
-    {
-      "basename": "vim",
-      "path": "Text Editor/vim.md"
-    },
-    {
-      "basename": "markdown",
-      "path": "Text Editor/markdown.md"
     },
     {
       "basename": "Index",
@@ -143,62 +199,6 @@
     {
       "basename": "Untitled",
       "path": "Untitled.md"
-    },
-    {
-      "basename": "Flux Pattern",
-      "path": "Terminology/Flux Pattern.md"
-    },
-    {
-      "basename": "Untitled",
-      "path": "Database/Postgres/Untitled.md"
-    },
-    {
-      "basename": "Secret",
-      "path": "Devops/container orchestration/kubernetes(k8s)/components/Secret.md"
-    },
-    {
-      "basename": "Service",
-      "path": "Devops/container orchestration/kubernetes(k8s)/components/Service.md"
-    },
-    {
-      "basename": "Storage",
-      "path": "Devops/container orchestration/kubernetes(k8s)/components/Storage.md"
-    },
-    {
-      "basename": "Deployment",
-      "path": "Devops/container orchestration/kubernetes(k8s)/components/Deployment.md"
-    },
-    {
-      "basename": "CQRS",
-      "path": "Architecture/Microservice/CQRS.md"
-    },
-    {
-      "basename": "ECR",
-      "path": "AWS/ECR.md"
-    },
-    {
-      "basename": "ECS",
-      "path": "AWS/ECS.md"
-    },
-    {
-      "basename": "DynamoDB",
-      "path": "AWS/DynamoDB.md"
-    },
-    {
-      "basename": "Cloudformation",
-      "path": "AWS/Cloudformation.md"
-    },
-    {
-      "basename": "Cloudfront",
-      "path": "AWS/Cloudfront.md"
-    },
-    {
-      "basename": "Lambda",
-      "path": "AWS/Lambda.md"
-    },
-    {
-      "basename": "EC2",
-      "path": "AWS/EC2.md"
     }
   ],
   "omittedPaths": [],

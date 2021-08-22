@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "23243410cae67792",
+        "id": "335f7d444c9b190a",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Shell/Bash/Tips & Tricks.md",
-            "mode": "source"
+            "file": "AWS/VPC.md",
+            "mode": "preview"
           }
         }
       }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Shell/Bash/Tips & Tricks.md",
+                "file": "AWS/VPC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Shell/Bash/Tips & Tricks.md"
+                "file": "AWS/VPC.md"
               }
             }
           }
@@ -104,17 +104,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "23243410cae67792",
+  "active": "335f7d444c9b190a",
   "lastOpenFiles": [
-    "Shell/Bash/Tips & Tricks.md",
-    "Shell/Bash/Fundamental.md",
-    "ReactJS/Tips & Tricks.md",
-    "ReactJS/Redux.md",
-    "ReactJS/Library Cheatsheet.md",
-    "ReactJS/deployment/Deploy application with runtime environtment.md",
-    "Devops/References.md",
-    "Devops/web server/nginx/Nginx Location Regrex.md",
-    "Devops/web server/nginx/Nginx Rate Limit.md",
-    "Devops/web server/nginx/Nginx Custom Auth For Request.md"
+    "AWS/VPC.md",
+    "AWS/Cloudfront.md",
+    "AWS/DynamoDB.md",
+    "AWS/EC2.md",
+    "AWS/Lambda.md",
+    "AWS/S3.md",
+    "AWS/SNS.md",
+    "AWS/SQS.md",
+    "Text Editor/vim.md",
+    "AWS/Route53.md"
   ]
 }
