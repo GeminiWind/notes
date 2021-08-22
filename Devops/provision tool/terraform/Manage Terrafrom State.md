@@ -13,24 +13,18 @@ If you 've worked with Terraform, you know that Terraform only update the resour
 
 When you follow the flow: `terraform plan` and `terraform apply` to deploy your change in the Terraform folder, there is a file `terraform.tfstate`, which will be created or updated if it exists at root folder with Terraform. This file is formatted as JSON, and contains managed infrastructure and configuration. For example, take simple EC2 in Terraform
 
-```h
-
+```hcl
 // File: deploy/main.tf
 
 resource "aws_instance" "example" {
-
 	ami = "ami-0c55b159cbfafe1f0"
-
 	instance_type = "t2.micro"
-
 }
-
 ```
 
 After running `terraform apply`, the `terraform.tfstate` file will look something like this
 
 ```json
-
 {
   "version": 4,
   "terraform_version": "0.12.0",
@@ -59,7 +53,6 @@ After running `terraform apply`, the `terraform.tfstate` file will look somethin
     }
   ]
 }
-
 ```
 
 By manipulating `terraform.tfstate` file, Terraform know the information about your EC2 resource `example` like
@@ -137,13 +130,11 @@ In the following, we will configured S3 remote backend.
    The general syntax for remote backend is
 
    ```hcl
-
    terraform {
    	backend "<BACKEND_NAME>" {
    		[CONFIG...]
    	}
    }
-
    ```
 
    Where **BACKEND_NAME** is the name of the backend you want to use (e.g., "s3") and **CONFIG** consists consists of one or more arguments that are specific to that backend (e.g., the name of the S3 bucket to use)
@@ -152,7 +143,6 @@ In the following, we will configured S3 remote backend.
 
    ```hcl
    // File: backend.tf
-
    terraform {
    	backend "s3" {
 
@@ -206,7 +196,6 @@ To create a new workspace or switch between workspaces, you use the terraform wo
 If you used isolation via workspace, in your Terraform configuration file, you can use the conditional statement to create each seperated configuration for each environemt, like this
 
 ```hcl
-
 resource "aws_instance" "example" {
 	ami = "ami-0c55b159cbfafe1f0"
 	instance_type = (terraform.workspace == "default" ? "t2.medium" : "t2.micro")
@@ -303,23 +292,18 @@ components
 
 ```hcl
 // File: stage/services/backend-app/main.tf
-
 module {
 	source = "../../../components/backend-app"
-
 	desired_instance = {var.desired_instance}
 }
 ```
 
 ```hcl
 // File: stage/services/backend-app/main.tf
-
 module {
 	source = "../../../components/backend-app"
-
 	desired_instance = {var.desired_instance}
 }
-
 ```
 
 **Drawback**

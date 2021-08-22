@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Devops/provision tool/terraform/Manage Terrafrom State.md",
-            "mode": "source"
+            "file": "Devops/provision tool/terraform/Testing your Terraform.md",
+            "mode": "preview"
           }
         }
       }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Devops/provision tool/terraform/Manage Terrafrom State.md",
+                "file": "Devops/provision tool/terraform/Testing your Terraform.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Devops/provision tool/terraform/Manage Terrafrom State.md"
+                "file": "Devops/provision tool/terraform/Testing your Terraform.md"
               }
             }
           }
@@ -106,8 +106,8 @@
   },
   "active": "9d6c1315080d08b0",
   "lastOpenFiles": [
-    "Devops/provision tool/terraform/Manage Terrafrom State.md",
     "Devops/provision tool/terraform/Testing your Terraform.md",
+    "Devops/provision tool/terraform/Manage Terrafrom State.md",
     "Devops/provision tool/terraform/Testing.md",
     "Devops/provision tool/terraform/Untitled.md",
     "AWS/Route53.md",

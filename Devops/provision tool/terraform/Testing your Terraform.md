@@ -156,7 +156,6 @@ module "ec2" {
 output "homepage" {
 	value = module.ec2.public_ip
 }
-
 ```
 
 Follow the pattern to write automated testing for Terraform
@@ -281,165 +280,84 @@ Follow the pattern to write automated testing for Terraform
 	=== RUN TestTerraformAwsHelloWorldExample
 
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:10:08+07:00 retry.go:72: terraform [init -upgrade=false]
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:10:08+07:00 command.go:87: Running command terraform with args [init -upgrade=false]
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:10:08+07:00 command.go:158: Initializing modules...
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:10:08+07:00 command.go:158: - ec2 in ../..
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:10:08+07:00 command.go:158:
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:10:08+07:00 command.go:158: Initializing the backend...
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:10:08+07:00 command.go:158:
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:10:08+07:00 command.go:158: Initializing provider plugins...
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:10:08+07:00 command.go:158: - Checking for available provider plugins...
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:10:09+07:00 command.go:158: - Downloading plugin for provider "aws" (hashicorp/aws) 2.50.0...
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:11:41+07:00 command.go:158:
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:11:41+07:00 command.go:158: The following providers do not have any version constraints in configuration,
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:11:41+07:00 command.go:158: so the latest version was installed.
-
-	TestTerraformAwsHelloWorldExample 2020-02-24T14:11:41+07:00 command.go:158:
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:11:41+07:00 command.go:158: To prevent automatic upgrades to new major versions that may contain breaking
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:11:41+07:00 command.go:158: changes, it is recommended to add version = "..." constraints to the
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:11:41+07:00 command.go:158: corresponding provider blocks in configuration, with the constraint strings
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:11:41+07:00 command.go:158: suggested below.
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:11:41+07:00 command.go:158:
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:11:41+07:00 command.go:158: * provider.aws: version = "~> 2.50"
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:11:41+07:00 command.go:158:
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:11:41+07:00 command.go:158: Terraform has been successfully initialized!
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:11:41+07:00 command.go:158:
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:11:41+07:00 command.go:158: You may now begin working with Terraform. Try running "terraform plan" to see
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:11:41+07:00 command.go:158: any changes that are required for your infrastructure. All Terraform commands
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:11:41+07:00 command.go:158: should now work.
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:11:41+07:00 command.go:158:
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:11:41+07:00 command.go:158: If you ever set or change modules or backend configuration for Terraform,
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:11:41+07:00 command.go:158: rerun this command to reinitialize your working directory. If you forget, other
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:11:41+07:00 command.go:158: commands will detect it and remind you to do so if necessary.
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:11:41+07:00 retry.go:72: terraform [get -update]
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:11:41+07:00 command.go:87: Running command terraform with args [get -update]
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:11:41+07:00 command.go:158: - ec2 in ../..
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:11:41+07:00 retry.go:72: terraform [apply -input=false -auto-approve -lock=false]
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:11:41+07:00 command.go:87: Running command terraform with args [apply -input=false -auto-approve -lock=false]
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:11:52+07:00 command.go:158: module.ec2.aws_security_group.instance: Creating...
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:11:57+07:00 command.go:158: module.ec2.aws_security_group.instance: Creation complete after 5s [id=sg-0e3a89a9ec3e6cc7d]
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:11:57+07:00 command.go:158: module.ec2.aws_instance.example: Creating...
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:12:07+07:00 command.go:158: module.ec2.aws_instance.example: Still creating... [10s elapsed]
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:12:17+07:00 command.go:158: module.ec2.aws_instance.example: Still creating... [20s elapsed]
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:12:27+07:00 command.go:158: module.ec2.aws_instance.example: Still creating... [30s elapsed]
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:12:36+07:00 command.go:158: module.ec2.aws_instance.example: Creation complete after 39s [id=i-04cc004a0aa0736fa]
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:12:36+07:00 command.go:158:
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:12:36+07:00 command.go:158: Apply complete! Resources: 2 added, 0 changed, 0 destroyed.
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:12:36+07:00 command.go:158:
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:12:36+07:00 command.go:158: Outputs:
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:12:36+07:00 command.go:158:
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:12:36+07:00 command.go:158: public_ip = 13.236.153.154
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:12:36+07:00 retry.go:72: terraform [output -no-color public_ip]
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:12:36+07:00 command.go:87: Running command terraform with args [output -no-color public_ip]
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:12:36+07:00 command.go:158: 13.236.153.154
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:12:36+07:00 retry.go:72: HTTP GET to URL http://13.236.153.154
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:12:36+07:00 http_helper.go:32: Making an HTTP GET call to URL http://13.236.153.154
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:12:44+07:00 retry.go:84: HTTP GET to URL http://13.236.153.154 returned an error: Get http://13.236.153.154: dial tcp 13.236.153.154:80: connect: connection refused. Sleeping for 30s and will try again.
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:13:14+07:00 retry.go:72: HTTP GET to URL http://13.236.153.154
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:13:14+07:00 http_helper.go:32: Making an HTTP GET call to URL http://13.236.153.154
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:13:14+07:00 retry.go:84: HTTP GET to URL http://13.236.153.154 returned an error: Get http://13.236.153.154: dial tcp 13.236.153.154:80: connect: connection refused. Sleeping for 30s and will try again.
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:13:44+07:00 retry.go:72: HTTP GET to URL http://13.236.153.154
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:13:44+07:00 http_helper.go:32: Making an HTTP GET call to URL http://13.236.153.154
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:13:44+07:00 retry.go:84: HTTP GET to URL http://13.236.153.154 returned an error: Get http://13.236.153.154: dial tcp 13.236.153.154:80: connect: connection refused. Sleeping for 30s and will try again.
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:14:14+07:00 retry.go:72: HTTP GET to URL http://13.236.153.154
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:14:14+07:00 http_helper.go:32: Making an HTTP GET call to URL http://13.236.153.154
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:14:14+07:00 retry.go:84: HTTP GET to URL http://13.236.153.154 returned an error: Get http://13.236.153.154: dial tcp 13.236.153.154:80: connect: connection refused. Sleeping for 30s and will try again.
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:14:44+07:00 retry.go:72: HTTP GET to URL http://13.236.153.154
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:14:44+07:00 http_helper.go:32: Making an HTTP GET call to URL http://13.236.153.154
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:14:44+07:00 retry.go:84: HTTP GET to URL http://13.236.153.154 returned an error: Get http://13.236.153.154: dial tcp 13.236.153.154:80: connect: connection refused. Sleeping for 30s and will try again.
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:15:14+07:00 retry.go:72: HTTP GET to URL http://13.236.153.154
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:15:14+07:00 http_helper.go:32: Making an HTTP GET call to URL http://13.236.153.154
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:15:15+07:00 retry.go:72: terraform [destroy -auto-approve -input=false -lock=false]
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:15:15+07:00 command.go:87: Running command terraform with args [destroy -auto-approve -input=false -lock=false]
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:15:21+07:00 command.go:158: module.ec2.aws_security_group.instance: Refreshing state... [id=sg-0e3a89a9ec3e6cc7d]
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:15:22+07:00 command.go:158: module.ec2.aws_instance.example: Refreshing state... [id=i-04cc004a0aa0736fa]
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:15:33+07:00 command.go:158: module.ec2.aws_instance.example: Destroying... [id=i-04cc004a0aa0736fa]
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:15:43+07:00 command.go:158: module.ec2.aws_instance.example: Still destroying... [id=i-04cc004a0aa0736fa, 10s elapsed]
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:15:53+07:00 command.go:158: module.ec2.aws_instance.example: Still destroying... [id=i-04cc004a0aa0736fa, 20s elapsed]
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:16:03+07:00 command.go:158: module.ec2.aws_instance.example: Still destroying... [id=i-04cc004a0aa0736fa, 30s elapsed]
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:16:06+07:00 command.go:158: module.ec2.aws_instance.example: Destruction complete after 32s
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:16:06+07:00 command.go:158: module.ec2.aws_security_group.instance: Destroying... [id=sg-0e3a89a9ec3e6cc7d]
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:16:07+07:00 command.go:158: module.ec2.aws_security_group.instance: Destruction complete after 2s
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:16:07+07:00 command.go:158:
-
 	TestTerraformAwsHelloWorldExample 2020-02-24T14:16:07+07:00 command.go:158: Destroy complete! Resources: 2 destroyed.
 
 	--- PASS: TestTerraformAwsHelloWorldExample (359.68s)
@@ -558,8 +476,6 @@ I 'll take the first example to implement the test integration because the conce
 				}
 			}
 
-
-
 			# Sync artifact to s3 bucket
 			resource "null_resource" "upload_web_resouce" {
 				provisioner "local-exec" {
@@ -607,7 +523,6 @@ I 'll take the first example to implement the test integration because the conce
 		description = "S3 Bucker Regional Domain Name"
 		type = string
 	}
-
 	```
 
 	- `main.tf`
