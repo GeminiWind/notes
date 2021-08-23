@@ -41,6 +41,8 @@ data:
 
 ## Using ConfigMap in Pod
 
+- As value for environment variable
+
 ```yaml
 apiVersion: v1
 kind: Pod
@@ -62,3 +64,5 @@ spec:
               key: special.how
   restartPolicy: Never
 ```
+
+- As value for config file

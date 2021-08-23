@@ -1,20 +1,116 @@
 {
   "recentFiles": [
     {
-      "basename": "Testing your Terraform",
-      "path": "Devops/provision tool/terraform/Testing your Terraform.md"
+      "basename": "Virtual Service",
+      "path": "Devops/container orchestration/istio/Virtual Service.md"
     },
     {
-      "basename": "Manage Terrafrom State",
-      "path": "Devops/provision tool/terraform/Manage Terrafrom State.md"
+      "basename": "Traffic Shifting",
+      "path": "Devops/container orchestration/istio/Traffic Shifting.md"
+    },
+    {
+      "basename": "Timeout",
+      "path": "Devops/container orchestration/istio/Timeout.md"
+    },
+    {
+      "basename": "Retry",
+      "path": "Devops/container orchestration/istio/Retry.md"
+    },
+    {
+      "basename": "Gateway",
+      "path": "Devops/container orchestration/istio/Gateway.md"
+    },
+    {
+      "basename": "Circuit Breaker",
+      "path": "Devops/container orchestration/istio/Circuit Breaker.md"
+    },
+    {
+      "basename": "ConfigMap",
+      "path": "Devops/container orchestration/kubernetes(k8s)/components/ConfigMap.md"
+    },
+    {
+      "basename": "Secret",
+      "path": "Devops/container orchestration/kubernetes(k8s)/components/Secret.md"
+    },
+    {
+      "basename": "Service",
+      "path": "Devops/container orchestration/kubernetes(k8s)/components/Service.md"
+    },
+    {
+      "basename": "Pod",
+      "path": "Devops/container orchestration/kubernetes(k8s)/components/Pod.md"
+    },
+    {
+      "basename": "Namespace",
+      "path": "Devops/container orchestration/kubernetes(k8s)/components/Namespace.md"
+    },
+    {
+      "basename": "Ingress",
+      "path": "Devops/container orchestration/kubernetes(k8s)/components/Ingress.md"
+    },
+    {
+      "basename": "Deployment",
+      "path": "Devops/container orchestration/kubernetes(k8s)/components/Deployment.md"
+    },
+    {
+      "basename": "CronJob",
+      "path": "Devops/container orchestration/kubernetes(k8s)/components/CronJob.md"
+    },
+    {
+      "basename": "vim",
+      "path": "Text Editor/vim.md"
+    },
+    {
+      "basename": "Fundamental",
+      "path": "Shell/Bash/Fundamental.md"
+    },
+    {
+      "basename": "Tips & Tricks",
+      "path": "Shell/Bash/Tips & Tricks.md"
+    },
+    {
+      "basename": "Circuit breaker",
+      "path": "Architecture/Microservice/Circuit breaker.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Untitled.md"
+    },
+    {
+      "basename": "ECR",
+      "path": "AWS/ECR.md"
+    },
+    {
+      "basename": "S3",
+      "path": "AWS/S3.md"
+    },
+    {
+      "basename": "Lambda",
+      "path": "AWS/Lambda.md"
     },
     {
       "basename": "Route53",
       "path": "AWS/Route53.md"
     },
     {
-      "basename": "S3",
-      "path": "AWS/S3.md"
+      "basename": "Deploy application with runtime environtment",
+      "path": "ReactJS/deployment/Deploy application with runtime environtment.md"
+    },
+    {
+      "basename": "Testing your Terraform",
+      "path": "Devops/provision tool/terraform/Testing your Terraform.md"
+    },
+    {
+      "basename": "Docker",
+      "path": "Devops/container/Docker.md"
+    },
+    {
+      "basename": "markdown",
+      "path": "Text Editor/markdown.md"
+    },
+    {
+      "basename": "Manage Terrafrom State",
+      "path": "Devops/provision tool/terraform/Manage Terrafrom State.md"
     },
     {
       "basename": "SNS",
@@ -53,14 +149,6 @@
       "path": "AWS/EC2.md"
     },
     {
-      "basename": "Lambda",
-      "path": "AWS/Lambda.md"
-    },
-    {
-      "basename": "vim",
-      "path": "Text Editor/vim.md"
-    },
-    {
       "basename": "ECS",
       "path": "AWS/ECS.md"
     },
@@ -69,24 +157,8 @@
       "path": "AWS/Cloudformation.md"
     },
     {
-      "basename": "ECR",
-      "path": "AWS/ECR.md"
-    },
-    {
       "basename": "RSA",
       "path": "Algorithm/RSA.md"
-    },
-    {
-      "basename": "markdown",
-      "path": "Text Editor/markdown.md"
-    },
-    {
-      "basename": "Tips & Tricks",
-      "path": "Shell/Bash/Tips & Tricks.md"
-    },
-    {
-      "basename": "Fundamental",
-      "path": "Shell/Bash/Fundamental.md"
     },
     {
       "basename": "Nginx config full",
@@ -109,10 +181,6 @@
       "path": "ReactJS/Library Cheatsheet.md"
     },
     {
-      "basename": "Deploy application with runtime environtment",
-      "path": "ReactJS/deployment/Deploy application with runtime environtment.md"
-    },
-    {
       "basename": "References",
       "path": "Devops/References.md"
     },
@@ -131,74 +199,6 @@
     {
       "basename": "Nginx config boilerplate for proxy",
       "path": "Devops/web server/nginx/Nginx config boilerplate for proxy.md"
-    },
-    {
-      "basename": "Nginx config boilerplate for load balancer",
-      "path": "Devops/web server/nginx/Nginx config boilerplate for load balancer.md"
-    },
-    {
-      "basename": "Common Nginx directives",
-      "path": "Devops/web server/nginx/Common Nginx directives.md"
-    },
-    {
-      "basename": "Command Nginx variables",
-      "path": "Devops/web server/nginx/Command Nginx variables.md"
-    },
-    {
-      "basename": "Authentication",
-      "path": "Architecture/Microservice/Authentication.md"
-    },
-    {
-      "basename": "Circuit breaker",
-      "path": "Architecture/Microservice/Circuit breaker.md"
-    },
-    {
-      "basename": "Centralized logging",
-      "path": "Architecture/Microservice/Centralized logging.md"
-    },
-    {
-      "basename": "Index",
-      "path": "Database/Postgres/Index.md"
-    },
-    {
-      "basename": "Scaling in k8s",
-      "path": "Database/Postgres/Scaling in k8s.md"
-    },
-    {
-      "basename": "Useful commands",
-      "path": "Database/Postgres/Useful commands.md"
-    },
-    {
-      "basename": "CronJob",
-      "path": "Devops/container orchestration/kubernetes(k8s)/components/CronJob.md"
-    },
-    {
-      "basename": "ConfigMap",
-      "path": "Devops/container orchestration/kubernetes(k8s)/components/ConfigMap.md"
-    },
-    {
-      "basename": "Ingress",
-      "path": "Devops/container orchestration/kubernetes(k8s)/components/Ingress.md"
-    },
-    {
-      "basename": "Compose",
-      "path": "Architecture/Functional Programming/Compose.md"
-    },
-    {
-      "basename": "Pure function",
-      "path": "Architecture/Functional Programming/Pure function.md"
-    },
-    {
-      "basename": "Point-free",
-      "path": "Architecture/Functional Programming/Point-free.md"
-    },
-    {
-      "basename": "Pipe",
-      "path": "Architecture/Functional Programming/Pipe.md"
-    },
-    {
-      "basename": "Curry",
-      "path": "Architecture/Functional Programming/Curry.md"
     }
   ],
   "omittedPaths": [],

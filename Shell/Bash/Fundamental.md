@@ -3,9 +3,11 @@
 #!/bin/bash          
 STR="Hello World!"
 echo $STR
-```
 
-## Iterating array
+ARR1 = ("one" "two" "three")
+```
+## Control flow
+### Iterating array
 ```bash
 #!/bin/bash
 # declare an array called array and define 3 vales
@@ -16,7 +18,7 @@ do
 done
 ```
 
-## If-else
+### If-else
 
 ```bash
 if TEST-COMMAND1 // if [[ $VAR -gt 10 ]]

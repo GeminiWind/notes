@@ -1,6 +1,6 @@
 # Secret 
 
-Used to store smaill amount info like token, password
+Used to store smaill amount info like token, password. Max: 1MB
 
 ## Create secret
 
