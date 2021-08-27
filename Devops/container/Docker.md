@@ -95,6 +95,11 @@ docker exec -it <container-name> /bin.sh
 docker logs -f <container-id>
 ```
 
+#### Remove all stopped Docker containers
+```shell
+docker container prune
+```
+
 ### Cleaning
 
 #### Killing all container
