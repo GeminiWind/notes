@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Devops/container orchestration/istio/Virtual Service.md",
-            "mode": "source"
+            "file": "Shell/Bash/Heredoc.md",
+            "mode": "preview"
           }
         }
       }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Devops/container orchestration/istio/Virtual Service.md",
+                "file": "Shell/Bash/Heredoc.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Devops/container orchestration/istio/Virtual Service.md"
+                "file": "Shell/Bash/Heredoc.md"
               }
             }
           }
@@ -106,15 +106,15 @@
   },
   "active": "d25a43032861529a",
   "lastOpenFiles": [
+    "Shell/Bash/Heredoc.md",
+    "Shell/Bash/Sed.md",
+    "Shell/Bash/Fundamental.md",
+    "Shell/Bash/Awk.md",
+    "Shell/Bash/Untitled.md",
+    "Shell/Bash/Tips & Tricks.md",
     "Devops/container orchestration/istio/Virtual Service.md",
     "Devops/container orchestration/istio/Traffic Shifting.md",
     "Devops/container orchestration/istio/Timeout.md",
-    "Devops/container orchestration/istio/Retry.md",
-    "Devops/container orchestration/istio/Gateway.md",
-    "Devops/container orchestration/istio/Circuit Breaker.md",
-    "Devops/container orchestration/kubernetes(k8s)/components/ConfigMap.md",
-    "Devops/container orchestration/kubernetes(k8s)/components/Secret.md",
-    "Devops/container orchestration/kubernetes(k8s)/components/Service.md",
-    "Devops/container orchestration/kubernetes(k8s)/components/Pod.md"
+    "Devops/container orchestration/istio/Retry.md"
   ]
 }

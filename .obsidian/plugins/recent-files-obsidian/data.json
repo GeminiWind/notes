@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "Heredoc",
+      "path": "Shell/Bash/Heredoc.md"
+    },
+    {
+      "basename": "Sed",
+      "path": "Shell/Bash/Sed.md"
+    },
+    {
+      "basename": "Fundamental",
+      "path": "Shell/Bash/Fundamental.md"
+    },
+    {
+      "basename": "Awk",
+      "path": "Shell/Bash/Awk.md"
+    },
+    {
+      "basename": "Xargs",
+      "path": "Shell/Bash/Xargs.md"
+    },
+    {
+      "basename": "Tips & Tricks",
+      "path": "Shell/Bash/Tips & Tricks.md"
+    },
+    {
       "basename": "Virtual Service",
       "path": "Devops/container orchestration/istio/Virtual Service.md"
     },
@@ -59,14 +83,6 @@
     {
       "basename": "vim",
       "path": "Text Editor/vim.md"
-    },
-    {
-      "basename": "Fundamental",
-      "path": "Shell/Bash/Fundamental.md"
-    },
-    {
-      "basename": "Tips & Tricks",
-      "path": "Shell/Bash/Tips & Tricks.md"
     },
     {
       "basename": "Circuit breaker",
@@ -183,22 +199,6 @@
     {
       "basename": "References",
       "path": "Devops/References.md"
-    },
-    {
-      "basename": "Nginx Location Regrex",
-      "path": "Devops/web server/nginx/Nginx Location Regrex.md"
-    },
-    {
-      "basename": "Nginx Rate Limit",
-      "path": "Devops/web server/nginx/Nginx Rate Limit.md"
-    },
-    {
-      "basename": "Nginx config boilerplate for single page app",
-      "path": "Devops/web server/nginx/Nginx config boilerplate for single page app.md"
-    },
-    {
-      "basename": "Nginx config boilerplate for proxy",
-      "path": "Devops/web server/nginx/Nginx config boilerplate for proxy.md"
     }
   ],
   "omittedPaths": [],

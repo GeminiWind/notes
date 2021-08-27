@@ -136,4 +136,19 @@ if [[ -n $1 ]]; then
 fi
 ```
 
+
+## Shortcuts
+
+|Shorcut| What is it|
+|:--:|:--:|
+|`Ctrl` + `X` + `E`| temporary editor for current command (your editor is set by `$EDITOR`)|
+|`Ctrl` + `K`| copy text after cursor|
+|`Ctrl` + `U`| copy text before cursor|
+| `Ctrl` + `Y`| yarn the text|
+| `sudo!!`| re-run previous command with 'sudo' prepended|
+| `cd -`| go to previous current working directory (`$pwd`)|
+|`Ctrl` + `R` => type your pattern to search command|Search matching history command (like `zsh-auto-completion`)|
+
+
+
 Tags: #bash, #shell
