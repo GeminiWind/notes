@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "d25a43032861529a",
+        "id": "190dda8665dc73ea",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Devops/container/Docker.md",
+            "file": "Devops/container orchestration/kubernetes(k8s)/components/Horizontal Pod AutoScaler (HPA).md",
             "mode": "preview"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "docker",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -56,8 +56,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -77,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Devops/container/Docker.md",
+                "file": "Devops/container orchestration/kubernetes(k8s)/components/Horizontal Pod AutoScaler (HPA).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Devops/container/Docker.md"
+                "file": "Devops/container orchestration/kubernetes(k8s)/components/Horizontal Pod AutoScaler (HPA).md"
               }
             }
           }
@@ -105,17 +104,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "d25a43032861529a",
+  "active": "190dda8665dc73ea",
   "lastOpenFiles": [
-    "Devops/container/Docker.md",
-    "Shell/Bash/Heredoc.md",
-    "Shell/Bash/Sed.md",
-    "Shell/Bash/Fundamental.md",
-    "Shell/Bash/Awk.md",
-    "Shell/Bash/Untitled.md",
-    "Shell/Bash/Tips & Tricks.md",
-    "Devops/container orchestration/istio/Virtual Service.md",
-    "Devops/container orchestration/istio/Traffic Shifting.md",
-    "Devops/container orchestration/istio/Timeout.md"
+    "Devops/container orchestration/kubernetes(k8s)/components/Horizontal Pod AutoScaler (HPA).md",
+    "Devops/assets/terraform/Pasted image 20210828153749.png",
+    "Untitled 1.md",
+    "Devops/assets/Pasted image 20210828150518.png",
+    "Devops/container orchestration/kubernetes(k8s)/components/Deployment.md",
+    "Devops/container orchestration/kubernetes(k8s)/components/Untitled.md",
+    "Devops/container orchestration/kubernetes(k8s)/Kubernetes Cheatsheet.md",
+    "Devops/container orchestration/kubernetes(k8s)/components/ConfigMap.md",
+    "Devops/container orchestration/kubernetes(k8s)/components/CronJob.md",
+    "Devops/container orchestration/kubernetes(k8s)/components/Namespace.md"
   ]
 }

@@ -42,7 +42,7 @@ REDIS_MASTER_PORT_6379_TCP_ADDR=10.0.0.11
 
 ### Service Endpoint
 
-You can access the endpoint throgh the following endpoint (which has been resolved)
+You can access the endpoint throgh the following FQDN endpoint (which has been resolved)
 ```
 <servie-name>.<namespace>.svc.cluster.local
 ```
@@ -103,3 +103,6 @@ status:
     ingress:
     - ip: 192.0.2.127
 ```
+
+## Session Affinity
+- TODO

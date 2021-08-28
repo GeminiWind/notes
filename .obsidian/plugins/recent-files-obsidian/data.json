@@ -1,16 +1,84 @@
 {
   "recentFiles": [
     {
+      "basename": "Horizontal Pod AutoScaler (HPA)",
+      "path": "Devops/container orchestration/kubernetes(k8s)/components/Horizontal Pod AutoScaler (HPA).md"
+    },
+    {
+      "basename": "Pasted image 20210828153749",
+      "path": "Devops/assets/k8s/Pasted image 20210828153749.png"
+    },
+    {
+      "basename": "Untitled 1",
+      "path": "Untitled 1.md"
+    },
+    {
+      "basename": "hpa-arch.png",
+      "path": "Devops/assets/k8s/hpa-arch.png.png"
+    },
+    {
+      "basename": "Deployment",
+      "path": "Devops/container orchestration/kubernetes(k8s)/components/Deployment.md"
+    },
+    {
+      "basename": "Kubernetes Cheatsheet",
+      "path": "Devops/container orchestration/kubernetes(k8s)/Kubernetes Cheatsheet.md"
+    },
+    {
+      "basename": "ConfigMap",
+      "path": "Devops/container orchestration/kubernetes(k8s)/components/ConfigMap.md"
+    },
+    {
+      "basename": "CronJob",
+      "path": "Devops/container orchestration/kubernetes(k8s)/components/CronJob.md"
+    },
+    {
+      "basename": "Label",
+      "path": "Devops/container orchestration/kubernetes(k8s)/components/Label.md"
+    },
+    {
+      "basename": "Namespace",
+      "path": "Devops/container orchestration/kubernetes(k8s)/components/Namespace.md"
+    },
+    {
+      "basename": "Pod",
+      "path": "Devops/container orchestration/kubernetes(k8s)/components/Pod.md"
+    },
+    {
+      "basename": "Secret",
+      "path": "Devops/container orchestration/kubernetes(k8s)/components/Secret.md"
+    },
+    {
+      "basename": "Service",
+      "path": "Devops/container orchestration/kubernetes(k8s)/components/Service.md"
+    },
+    {
+      "basename": "Storage",
+      "path": "Devops/container orchestration/kubernetes(k8s)/components/Storage.md"
+    },
+    {
+      "basename": "Sed",
+      "path": "Shell/Bash/Sed.md"
+    },
+    {
+      "basename": "S3",
+      "path": "AWS/S3.md"
+    },
+    {
+      "basename": "ECR",
+      "path": "AWS/ECR.md"
+    },
+    {
+      "basename": "Route53",
+      "path": "AWS/Route53.md"
+    },
+    {
       "basename": "Docker",
       "path": "Devops/container/Docker.md"
     },
     {
       "basename": "Heredoc",
       "path": "Shell/Bash/Heredoc.md"
-    },
-    {
-      "basename": "Sed",
-      "path": "Shell/Bash/Sed.md"
     },
     {
       "basename": "Fundamental",
@@ -53,36 +121,8 @@
       "path": "Devops/container orchestration/istio/Circuit Breaker.md"
     },
     {
-      "basename": "ConfigMap",
-      "path": "Devops/container orchestration/kubernetes(k8s)/components/ConfigMap.md"
-    },
-    {
-      "basename": "Secret",
-      "path": "Devops/container orchestration/kubernetes(k8s)/components/Secret.md"
-    },
-    {
-      "basename": "Service",
-      "path": "Devops/container orchestration/kubernetes(k8s)/components/Service.md"
-    },
-    {
-      "basename": "Pod",
-      "path": "Devops/container orchestration/kubernetes(k8s)/components/Pod.md"
-    },
-    {
-      "basename": "Namespace",
-      "path": "Devops/container orchestration/kubernetes(k8s)/components/Namespace.md"
-    },
-    {
       "basename": "Ingress",
       "path": "Devops/container orchestration/kubernetes(k8s)/components/Ingress.md"
-    },
-    {
-      "basename": "Deployment",
-      "path": "Devops/container orchestration/kubernetes(k8s)/components/Deployment.md"
-    },
-    {
-      "basename": "CronJob",
-      "path": "Devops/container orchestration/kubernetes(k8s)/components/CronJob.md"
     },
     {
       "basename": "vim",
@@ -97,20 +137,8 @@
       "path": "Untitled.md"
     },
     {
-      "basename": "ECR",
-      "path": "AWS/ECR.md"
-    },
-    {
-      "basename": "S3",
-      "path": "AWS/S3.md"
-    },
-    {
       "basename": "Lambda",
       "path": "AWS/Lambda.md"
-    },
-    {
-      "basename": "Route53",
-      "path": "AWS/Route53.md"
     },
     {
       "basename": "Deploy application with runtime environtment",
@@ -171,34 +199,6 @@
     {
       "basename": "Cloudformation",
       "path": "AWS/Cloudformation.md"
-    },
-    {
-      "basename": "RSA",
-      "path": "Algorithm/RSA.md"
-    },
-    {
-      "basename": "Nginx config full",
-      "path": "Devops/web server/nginx/Nginx config full.md"
-    },
-    {
-      "basename": "Nginx Custom Auth For Request",
-      "path": "Devops/web server/nginx/Nginx Custom Auth For Request.md"
-    },
-    {
-      "basename": "Tips & Tricks",
-      "path": "ReactJS/Tips & Tricks.md"
-    },
-    {
-      "basename": "Redux",
-      "path": "ReactJS/Redux.md"
-    },
-    {
-      "basename": "Library Cheatsheet",
-      "path": "ReactJS/Library Cheatsheet.md"
-    },
-    {
-      "basename": "References",
-      "path": "Devops/References.md"
     }
   ],
   "omittedPaths": [],
