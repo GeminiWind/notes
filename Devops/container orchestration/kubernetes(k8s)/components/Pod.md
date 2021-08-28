@@ -1,3 +1,8 @@
+---
+date updated: '2021-08-28T20:37:00+07:00'
+
+---
+
 # Pod
 
 - Pod can contains multiple containers
@@ -15,11 +20,11 @@ containers:
  image: chef/chefdk  
  command: ["/bin/sh"]  
  args: ["-c", "echo Hello from the Ubuntu container; sleep 1000"]
- ```
- 
- ## Command
- 
- - Get all pods
+```
+
+## Command
+
+- Get all pods
 
 ```shell
 kubectl get pods

@@ -1,6 +1,11 @@
+---
+date updated: '2021-08-28T20:37:10+07:00'
+
+---
+
 # Service
 
-- Service gathering your all pods and routing the traffic to pre-defined pod collection (something like LoadBalancer)
+A Kubernetes Service is a resource you create to make a single, constant point of entry to a group of pods providing the same service. Each service has an IP address and port that never change while the service exists. Clients can open connections to that IP and port, and those connections are then routed to one of the pods backing that service
 
 ## Example
 
@@ -20,7 +25,7 @@ spec:
 
 The above example will gather all pod whose  label `app: MyApp` and proxy all `TCP 80` (of service) to `TCP 9376` of pod (through `targetPort`)
 
-A service can expose mutiple port
+A service can expose multiple ports
 
 ## Discovering Service
 
@@ -42,24 +47,27 @@ REDIS_MASTER_PORT_6379_TCP_ADDR=10.0.0.11
 
 ### Service Endpoint
 
-You can access the endpoint throgh the following FQDN endpoint (which has been resolved)
-```
-<servie-name>.<namespace>.svc.cluster.local
-```
+You can access the endpoint throgh the following FQDN endpoint (which has been resolved by kube-dns)
 
-For example: `my-service.default.svc.cluster.local`
+    <servie-name>.<namespace>.svc.cluster.local
+
+For example: `my-service.default.svc.cluster.local`.
+
+Even you can emit `svc.cluster.local`, then the endpoint now `<service-name>.<namespace>`
 
 ## Service Type
--   `ClusterIP`: Exposes the Service on a cluster-internal IP. Choosing this value makes the Service only reachable from within the cluster. This is the default `ServiceType`.
--   [`NodePort`](https://kubernetes.io/docs/concepts/services-networking/service/#nodeport): Exposes the Service on each Node's IP at a static port (the `NodePort`). A `ClusterIP` Service, to which the `NodePort` Service routes, is automatically created. You'll be able to contact the `NodePort` Service, from outside the cluster, by requesting `<NodeIP>:<NodePort>`.
--   [`LoadBalancer`](https://kubernetes.io/docs/concepts/services-networking/service/#loadbalancer): Exposes the Service externally using a cloud provider's load balancer. `NodePort` and `ClusterIP` Services, to which the external load balancer routes, are automatically created.
+
+- `ClusterIP`: Exposes the Service on a cluster-internal IP. Choosing this value makes the Service only reachable from within the cluster. This is the default `ServiceType`.
+- `NodePort`: Exposes the Service on each Node's IP at a static port (the `NodePort`). A `ClusterIP` Service, to which the `NodePort` Service routes, is automatically created. You'll be able to contact the `NodePort` Service, from outside the cluster, by requesting `<NodeIP>:<NodePort>`.
+- `LoadBalancer` Exposes the Service externally using a cloud provider's load balancer. `NodePort` and `ClusterIP` Services, to which the external load balancer routes, are automatically created.
 
 ### ClusterIp
 
 Default Service Type of Service. Only reach in your K8s cluster
 
 ### NodePort
-- To expose your service to outsite with specified port 
+
+- To expose your service to outsite with specified port
 
 ```yaml
 apiVersion: v1
@@ -81,8 +89,7 @@ spec:
 
 ### LoadBalancer
 
-- To support load balancer in cloud
-
+- To support load balancer in cloud (like AWS ALB)
 
 ```yaml
 apiVersion: v1
@@ -105,4 +112,14 @@ status:
 ```
 
 ## Session Affinity
-- TODO
+
+To makes the service proxy redirect all requests originating from the same client IP to the same pod, you can set the service’s sessionAffinity property to **ClientIP** (instead of None, which is the default)
+
+```yaml
+apiVersion: v1
+kind: Service
+spec:
+  sessionAffinity: ClientIP
+```
+
+Kubernetes supports only two types of service session affinity: None and ClientIP.

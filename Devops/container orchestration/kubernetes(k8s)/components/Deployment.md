@@ -5,7 +5,13 @@ date updated: '2021-08-28T15:00:05+07:00'
 
 # Deployment
 
-- Use to ensure the number of specified pods (by `replica`)
+      
+
+A Deployment is a higher-level resource meant for deploying applications and updating them declaratively
+
+![[Pasted image 20210828201113.png]]
+      
+When using a Deployment, the actual pods are created and managed by the Deployment’s ReplicaSets, not by the Deployment directly
 
 ## Example
 
@@ -74,7 +80,7 @@ kubectl delete -f  <path-to-deployment-yaml>
 kubectl set image deployment/nginx-deployment nginx=nginx:1.16.1 --record
 ```
 
-option `--record` will write the update into history to use later
+option `--record` will write the update the CHANGE-CAUSE in revision history
 
 #### Updating the desire instances
 
@@ -82,17 +88,30 @@ option `--record` will write the update into history to use later
 kubectl scale deployment.v1.apps/nginx-deployment --replicas=10
 ```
 
-### Rollout, rolllback
+### Rollout & rolllback
 
 #### Get rollout status
 
 ```shell
-kubectl rollout status deployment/nginx-deployment
+kubectl rollout status deployment nginx-deployment
 ```
 
 The output will be similar
+```shell
+Waiting for rollout to finish: 1 out of 3 new replicas have been updated...
+```
 
-    Waiting for rollout to finish: 1 out of 3 new replicas have been updated...
+#### Undo the roll out
+
+```shell
+kubectl rollout undo deployment nginx-deployment
+```
+
+The ouput will be similar like this
+
+```shell
+deplpoyment "nginx-deplooyment" rolled back
+```
 
 #### Get history of roll out
 
@@ -116,21 +135,24 @@ REVISION    CHANGE-CAUSE
 kubectl rollout undo deployment.v1.apps/nginx-deployment --to-revision=2
 ```
 
-#### maxUnavailable, maxSurge
+#### Controlling the rate of the rollout
 
-## Auto-scaling
+Two properties affect how many pods are replaced at once during a Deployment’s roll- ing update. They are *maxSurge* and *maxUnavailable*
 
-### Horizontal Pod AutoScaling
-
-#### Based on CPU
-
-After creating the Deployment, to enable horizontal autoscaling of its pods, you need to create a HorizontalPodAutoscaler (HPA) object and point it to the Deploy- ment. You could prepare and post the YAML manifest for the HPA, but an easier way exists—using the kubectl autoscale command:
-
-```kubectl
-kubectl autoscale deployment kubia --cpu-percent=30 --min=1 --max=5
+```yml
+spec:
+	strategy:
+		rollingUpdate:
+			maxSurge: 1
+			maxUnavailable: 0
+		type: RollingUpdate
 ```
 
-This creates the HPA object for you and sets the Deployment called kubia as the scal- ing target. You’re setting the target CPU utilization of the pods to 30% and specifying the minimum and maximum number of replicas. The Autoscaler will constantly keep adjusting the number of replicas to keep their CPU utilization around 30%, but it will never scale down to less than one or scale up to more than five replicas.
+Below is the explanation of *maxSurge* and *maxUnavailable*
 
-### Based on memory 
+|Props| Explnation|
+|:--:|:--:|
+| *maxSurge*| Determines how many pod instances you allow to exist above the desired replica count configured on the Deployment. It defaults to 25%, so there can be at most 25% more pod instances than the desired count. If the desired replica count is set to four, there will never be more than five pod instances running at the same time during an update. When converting a percentage to an absolute number, the number is rounded up. Instead of a percentage, the value can also be an absolute value (for example, one or two additional pods can be allowed).|
+| *maxUnavailable* | Determines how many pod instances can be unavailable relative to the desired replica count during the update. It also defaults to 25%, so the number of avail- able pod instances must never fall below 75% of the desired replica count. Here, when converting a percentage to an absolute number, the number is rounded down. If the desired replica count is set to four and the percentage is 25%, only one pod can be unavailable. There will always be at least three pod instances available to serve requests during the whole rollout. As with maxSurge, you can also specify an absolute value instead of a percentage.|
 
+![[Pasted image 20210828202440.png]]

@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Devops/container orchestration/kubernetes(k8s)/components/Horizontal Pod AutoScaler (HPA).md",
-            "mode": "preview"
+            "file": "Devops/container orchestration/kubernetes(k8s)/Kubernetes Cheatsheet.md",
+            "mode": "source"
           }
         }
       }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Devops/container orchestration/kubernetes(k8s)/components/Horizontal Pod AutoScaler (HPA).md",
+                "file": "Devops/container orchestration/kubernetes(k8s)/Kubernetes Cheatsheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Devops/container orchestration/kubernetes(k8s)/components/Horizontal Pod AutoScaler (HPA).md"
+                "file": "Devops/container orchestration/kubernetes(k8s)/Kubernetes Cheatsheet.md"
               }
             }
           }
@@ -106,15 +106,15 @@
   },
   "active": "190dda8665dc73ea",
   "lastOpenFiles": [
-    "Devops/container orchestration/kubernetes(k8s)/components/Horizontal Pod AutoScaler (HPA).md",
-    "Devops/assets/terraform/Pasted image 20210828153749.png",
-    "Untitled 1.md",
-    "Devops/assets/Pasted image 20210828150518.png",
-    "Devops/container orchestration/kubernetes(k8s)/components/Deployment.md",
-    "Devops/container orchestration/kubernetes(k8s)/components/Untitled.md",
     "Devops/container orchestration/kubernetes(k8s)/Kubernetes Cheatsheet.md",
+    "Devops/container orchestration/kubernetes(k8s)/components/Storage.md",
+    "Devops/container orchestration/kubernetes(k8s)/components/Service.md",
+    "Devops/container orchestration/kubernetes(k8s)/components/Pod.md",
+    "Devops/container orchestration/kubernetes(k8s)/components/Secret.md",
+    "Devops/container orchestration/kubernetes(k8s)/components/Deployment.md",
+    "Devops/container orchestration/kubernetes(k8s)/components/Horizontal Pod AutoScaler (HPA).md",
     "Devops/container orchestration/kubernetes(k8s)/components/ConfigMap.md",
     "Devops/container orchestration/kubernetes(k8s)/components/CronJob.md",
-    "Devops/container orchestration/kubernetes(k8s)/components/Namespace.md"
+    "Devops/assets/terraform/Pasted image 20210828153749.png"
   ]
 }
