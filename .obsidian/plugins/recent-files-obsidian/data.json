@@ -1,32 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Proxy",
-      "path": "Architecture/Design Pattern/Structural/Proxy.md"
-    },
-    {
-      "basename": "Decorator",
-      "path": "Architecture/Design Pattern/Structural/Decorator.md"
-    },
-    {
-      "basename": "Adapter",
-      "path": "Architecture/Design Pattern/Structural/Adapter.md"
-    },
-    {
-      "basename": "Composite",
-      "path": "Architecture/Design Pattern/Structural/Composite.md"
-    },
-    {
-      "basename": "Bridge",
-      "path": "Architecture/Design Pattern/Structural/Bridge.md"
-    },
-    {
       "basename": "Singleton",
       "path": "Architecture/Design Pattern/Creational/Singleton.md"
     },
     {
       "basename": "Prototype",
       "path": "Architecture/Design Pattern/Creational/Prototype.md"
+    },
+    {
+      "basename": "Abstract Factory",
+      "path": "Architecture/Design Pattern/Creational/Abstract Factory.md"
     },
     {
       "basename": "Builder",
@@ -37,12 +21,28 @@
       "path": "Architecture/Design Pattern/Creational/Factory.md"
     },
     {
-      "basename": "Untitled",
-      "path": "Untitled.md"
+      "basename": "Adapter",
+      "path": "Architecture/Design Pattern/Structural/Adapter.md"
     },
     {
-      "basename": "Abstract Factory",
-      "path": "Architecture/Design Pattern/Creational/Abstract Factory.md"
+      "basename": "Bridge",
+      "path": "Architecture/Design Pattern/Structural/Bridge.md"
+    },
+    {
+      "basename": "Composite",
+      "path": "Architecture/Design Pattern/Structural/Composite.md"
+    },
+    {
+      "basename": "Decorator",
+      "path": "Architecture/Design Pattern/Structural/Decorator.md"
+    },
+    {
+      "basename": "Proxy",
+      "path": "Architecture/Design Pattern/Structural/Proxy.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Untitled.md"
     },
     {
       "basename": "Tips & Tricks",

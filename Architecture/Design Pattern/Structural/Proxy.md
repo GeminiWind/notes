@@ -12,7 +12,7 @@ According to Wikipedia
 ## Exampple 
 Let's take an example of value proxy  
 
-```
+```js
 class Percentage {
   constructor(percent) {
     this.percent = percent;
@@ -31,7 +31,7 @@ class Percentage {
 
 That's how we can use that,  
 
-```
+```js
 let fivePercent = new Percentage(5);
 console.log(fivePercent.toString());
 console.log(`5% of 50 is ${50 * fivePercent}`);

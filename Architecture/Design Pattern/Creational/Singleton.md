@@ -12,7 +12,7 @@ According to Wikipedia
 
 We will be using example of car  
 
-Creating a Singleton class  
+Creating a Singleton class 
 
 ```js
 class DatabaseConnection {

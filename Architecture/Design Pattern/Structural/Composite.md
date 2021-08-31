@@ -2,7 +2,7 @@
 
 ## Definition
 
-omposes objects so that they can be manipulated as single object.
+Composes objects so that they can be manipulated as single object.
 
 According to Wikipedia
 
