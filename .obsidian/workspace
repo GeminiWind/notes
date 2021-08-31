@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Devops/container orchestration/kubernetes(k8s)/Kubernetes Cheatsheet.md",
+            "file": "Architecture/Design Pattern/Structural/Proxy.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Devops/container orchestration/kubernetes(k8s)/Kubernetes Cheatsheet.md",
+                "file": "Architecture/Design Pattern/Structural/Proxy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Devops/container orchestration/kubernetes(k8s)/Kubernetes Cheatsheet.md"
+                "file": "Architecture/Design Pattern/Structural/Proxy.md"
               }
             }
           }
@@ -106,15 +106,15 @@
   },
   "active": "190dda8665dc73ea",
   "lastOpenFiles": [
-    "Devops/container orchestration/kubernetes(k8s)/Kubernetes Cheatsheet.md",
-    "Devops/container orchestration/kubernetes(k8s)/components/Storage.md",
-    "Devops/container orchestration/kubernetes(k8s)/components/Service.md",
-    "Devops/container orchestration/kubernetes(k8s)/components/Pod.md",
-    "Devops/container orchestration/kubernetes(k8s)/components/Secret.md",
-    "Devops/container orchestration/kubernetes(k8s)/components/Deployment.md",
-    "Devops/container orchestration/kubernetes(k8s)/components/Horizontal Pod AutoScaler (HPA).md",
-    "Devops/container orchestration/kubernetes(k8s)/components/ConfigMap.md",
-    "Devops/container orchestration/kubernetes(k8s)/components/CronJob.md",
-    "Devops/assets/terraform/Pasted image 20210828153749.png"
+    "Architecture/Design Pattern/Structural/Proxy.md",
+    "Architecture/Design Pattern/Structural/Decorator.md",
+    "Architecture/Design Pattern/Structural/Untitled.md",
+    "Architecture/Design Pattern/Structural/Adapter.md",
+    "Architecture/Design Pattern/Structural/Composite.md",
+    "Architecture/Design Pattern/Structural/Bridge.md",
+    "Architecture/Design Pattern/Creational/Singleton.md",
+    "Architecture/Design Pattern/Creational/Prototype.md",
+    "Architecture/Design Pattern/Creational/Builder.md",
+    "Architecture/Design Pattern/Creational/Factory.md"
   ]
 }
