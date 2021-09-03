@@ -1,5 +1,5 @@
 ---
-date updated: '2021-09-03T15:53:42+07:00'
+date updated: '2021-09-03T16:10:05+07:00'
 
 ---
 
@@ -38,13 +38,14 @@ date updated: '2021-09-03T15:53:42+07:00'
 
 # My customs
 
-| Action                       |        How to archive action       |  Mode  |
-| ---------------------------- | :--------------------------------: | :----: |
-| Open NerdTree (File Browser) |            `Space` + `n`           | NORMAL |
-| Go to file                   |            `Space` + `g`           | NORMAL |
-| Open buffer in new tab       |            `Ctrl` + `t`            | NORMAL |
-| Toggle Terminal              |            `Space` + `t`           | NORMAL |
-| Go to defintion              | `gd`. Then `Ctrl` + `o` to go back | VISUAL |
-| Show documentation           |                 `K`                | VISUAL |
+| Action                                    |          How to archive action         |  Mode  |
+| ----------------------------------------- | :------------------------------------: | :----: |
+| Open NerdTree (File Browser)              |              `Space` + `n`             | NORMAL |
+| Open NerdTree menu (add, edit, move file) | Press `m`. NerdTree must be focused on | NORMAL |
+| Go to file                                |              `Space` + `g`             | NORMAL |
+| Open buffer in new tab                    |              `Ctrl` + `t`              | NORMAL |
+| Toggle Terminal                           |              `Space` + `t`             | NORMAL |
+| Go to defintion                           |   `gd`. Then `Ctrl` + `o` to go back   | VISUAL |
+| Show documentation                        |                   `K`                  | VISUAL |
 
 Tags: #vim
