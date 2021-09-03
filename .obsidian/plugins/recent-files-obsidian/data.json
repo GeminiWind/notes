@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "vim",
+      "path": "Text Editor/vim.md"
+    },
+    {
+      "basename": "markdown",
+      "path": "Text Editor/markdown.md"
+    },
+    {
       "basename": "Singleton",
       "path": "Architecture/Design Pattern/Creational/Singleton.md"
     },
@@ -169,10 +177,6 @@
       "path": "Devops/container orchestration/kubernetes(k8s)/components/Ingress.md"
     },
     {
-      "basename": "vim",
-      "path": "Text Editor/vim.md"
-    },
-    {
       "basename": "Circuit breaker",
       "path": "Architecture/Microservice/Circuit breaker.md"
     },
@@ -187,10 +191,6 @@
     {
       "basename": "Testing your Terraform",
       "path": "Devops/provision tool/terraform/Testing your Terraform.md"
-    },
-    {
-      "basename": "markdown",
-      "path": "Text Editor/markdown.md"
     },
     {
       "basename": "Manage Terrafrom State",
