@@ -1,6 +1,46 @@
 {
   "recentFiles": [
     {
+      "basename": "GraphQL",
+      "path": "API/GraphQL/GraphQL.md"
+    },
+    {
+      "basename": "Flux Pattern",
+      "path": "Terminology/Flux Pattern.md"
+    },
+    {
+      "basename": "markdown",
+      "path": "Text Editor/markdown.md"
+    },
+    {
+      "basename": "vim",
+      "path": "Text Editor/vim.md"
+    },
+    {
+      "basename": "DNS",
+      "path": "Terminology/DNS.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Untitled.md"
+    },
+    {
+      "basename": "Tips & Tricks",
+      "path": "ReactJS/Tips & Tricks.md"
+    },
+    {
+      "basename": "Redux",
+      "path": "ReactJS/Redux.md"
+    },
+    {
+      "basename": "Awesome Library",
+      "path": "ReactJS/Awesome Library.md"
+    },
+    {
+      "basename": "Deploy application with runtime environtment",
+      "path": "ReactJS/deployment/Deploy application with runtime environtment.md"
+    },
+    {
       "basename": "Storage",
       "path": "Devops/container orchestration/kubernetes(k8s)/components/Storage.md"
     },
@@ -41,32 +81,12 @@
       "path": "Devops/container orchestration/kubernetes(k8s)/components/Namespace.md"
     },
     {
-      "basename": "Deploy application with runtime environtment",
-      "path": "ReactJS/deployment/Deploy application with runtime environtment.md"
-    },
-    {
-      "basename": "Redux",
-      "path": "ReactJS/Redux.md"
-    },
-    {
-      "basename": "Library Cheatsheet",
-      "path": "ReactJS/Library Cheatsheet.md"
-    },
-    {
       "basename": "Ingress",
       "path": "Devops/container orchestration/kubernetes(k8s)/components/Ingress.md"
     },
     {
       "basename": "ResourceQuota",
       "path": "Devops/container orchestration/kubernetes(k8s)/components/ResourceQuota.md"
-    },
-    {
-      "basename": "vim",
-      "path": "Text Editor/vim.md"
-    },
-    {
-      "basename": "markdown",
-      "path": "Text Editor/markdown.md"
     },
     {
       "basename": "Singleton",
@@ -109,10 +129,6 @@
       "path": "Architecture/Design Pattern/Structural/Proxy.md"
     },
     {
-      "basename": "Untitled",
-      "path": "Untitled.md"
-    },
-    {
       "basename": "Tips & Tricks",
       "path": "Shell/Bash/Tips & Tricks.md"
     },
@@ -123,10 +139,6 @@
     {
       "basename": "Sed",
       "path": "Shell/Bash/Sed.md"
-    },
-    {
-      "basename": "GraphQL",
-      "path": "API/GraphQL/GraphQL.md"
     },
     {
       "basename": "Pasted image 20210828153749",
@@ -187,14 +199,6 @@
     {
       "basename": "Circuit Breaker",
       "path": "Devops/container orchestration/istio/Circuit Breaker.md"
-    },
-    {
-      "basename": "Circuit breaker",
-      "path": "Architecture/Microservice/Circuit breaker.md"
-    },
-    {
-      "basename": "Lambda",
-      "path": "AWS/Lambda.md"
     }
   ],
   "omittedPaths": [],

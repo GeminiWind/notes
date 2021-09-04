@@ -9,19 +9,19 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Devops/container orchestration/kubernetes(k8s)/components/Storage.md",
+            "file": "API/GraphQL/GraphQL.md",
             "mode": "source"
           }
         },
         "group": "591dce9fed332f5a"
       },
       {
-        "id": "e9b54564bff32133",
+        "id": "bf948e95d1e264f8",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Devops/container orchestration/kubernetes(k8s)/components/Storage.md",
+            "file": "API/GraphQL/GraphQL.md",
             "mode": "preview"
           }
         },
@@ -89,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Devops/container orchestration/kubernetes(k8s)/components/Storage.md",
+                "file": "API/GraphQL/GraphQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Devops/container orchestration/kubernetes(k8s)/components/Storage.md"
+                "file": "API/GraphQL/GraphQL.md"
               }
             }
           }
@@ -117,17 +117,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e9b54564bff32133",
+  "active": "c3acf33d80d7a786",
   "lastOpenFiles": [
-    "Devops/container orchestration/kubernetes(k8s)/components/Storage.md",
-    "Devops/container orchestration/kubernetes(k8s)/components/Service.md",
-    "Devops/container orchestration/kubernetes(k8s)/components/Secret.md",
-    "Devops/container orchestration/kubernetes(k8s)/components/Pod.md",
-    "Devops/container orchestration/kubernetes(k8s)/components/Label.md",
-    "Devops/container orchestration/kubernetes(k8s)/components/CronJob.md",
-    "Devops/container orchestration/kubernetes(k8s)/components/ConfigMap.md",
-    "Devops/container orchestration/kubernetes(k8s)/components/Deployment.md",
-    "Devops/container orchestration/kubernetes(k8s)/components/Horizontal Pod AutoScaler (HPA).md",
-    "Devops/container orchestration/kubernetes(k8s)/components/Namespace.md"
+    "API/GraphQL/GraphQL.md",
+    "Terminology/Flux Pattern.md",
+    "Text Editor/markdown.md",
+    "Text Editor/vim.md",
+    "Terminology/DNS.md",
+    "Untitled.md",
+    "ReactJS/Tips & Tricks.md",
+    "ReactJS/Redux.md",
+    "ReactJS/Library Cheatsheet.md",
+    "ReactJS/deployment/Deploy application with runtime environtment.md"
   ]
 }

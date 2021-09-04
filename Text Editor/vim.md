@@ -1,5 +1,5 @@
 ---
-date updated: '2021-09-03T16:10:05+07:00'
+date updated: '2021-09-04T22:42:15+07:00'
 
 ---
 
@@ -46,6 +46,7 @@ date updated: '2021-09-03T16:10:05+07:00'
 | Open buffer in new tab                    |              `Ctrl` + `t`              | NORMAL |
 | Toggle Terminal                           |              `Space` + `t`             | NORMAL |
 | Go to defintion                           |   `gd`. Then `Ctrl` + `o` to go back   | VISUAL |
+| Renaming symbol                           |           `Space` + `r` + `n`          | VISUAL |
 | Show documentation                        |                   `K`                  | VISUAL |
 
 Tags: #vim

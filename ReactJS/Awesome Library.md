@@ -1,13 +1,12 @@
-# Library Cheatsheet
+# Awesome Library
 
 ## Redux alternative
 
 - [rematch](https://github.com/rematch/rematch)
 - [recoil](https://recoiljs.org)
 - [mobx](https://mobx.js.org)
-- reducer + context
 - [zustand](https://github.com/pmndrs/zustand)
-
+- Context (React built-in)
 
 ## Redux middleware
 - [thunk](https://github.com/reduxjs/redux-thunk)
