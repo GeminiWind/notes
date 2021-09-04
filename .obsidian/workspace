@@ -9,10 +9,23 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Text Editor/vim.md",
+            "file": "Devops/container orchestration/kubernetes(k8s)/components/Storage.md",
             "mode": "source"
           }
-        }
+        },
+        "group": "591dce9fed332f5a"
+      },
+      {
+        "id": "e9b54564bff32133",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Devops/container orchestration/kubernetes(k8s)/components/Storage.md",
+            "mode": "preview"
+          }
+        },
+        "group": "591dce9fed332f5a"
       }
     ],
     "direction": "vertical"
@@ -76,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Text Editor/vim.md",
+                "file": "Devops/container orchestration/kubernetes(k8s)/components/Storage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Text Editor/vim.md"
+                "file": "Devops/container orchestration/kubernetes(k8s)/components/Storage.md"
               }
             }
           }
@@ -104,17 +117,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c3acf33d80d7a786",
+  "active": "e9b54564bff32133",
   "lastOpenFiles": [
-    "Text Editor/vim.md",
-    "Text Editor/markdown.md",
-    "Architecture/Design Pattern/Creational/Singleton.md",
-    "Architecture/Design Pattern/Creational/Prototype.md",
-    "Architecture/Design Pattern/Creational/Abstract Factory.md",
-    "Architecture/Design Pattern/Creational/Builder.md",
-    "Architecture/Design Pattern/Creational/Factory.md",
-    "Architecture/Design Pattern/Structural/Adapter.md",
-    "Architecture/Design Pattern/Structural/Bridge.md",
-    "Architecture/Design Pattern/Structural/Composite.md"
+    "Devops/container orchestration/kubernetes(k8s)/components/Storage.md",
+    "Devops/container orchestration/kubernetes(k8s)/components/Service.md",
+    "Devops/container orchestration/kubernetes(k8s)/components/Secret.md",
+    "Devops/container orchestration/kubernetes(k8s)/components/Pod.md",
+    "Devops/container orchestration/kubernetes(k8s)/components/Label.md",
+    "Devops/container orchestration/kubernetes(k8s)/components/CronJob.md",
+    "Devops/container orchestration/kubernetes(k8s)/components/ConfigMap.md",
+    "Devops/container orchestration/kubernetes(k8s)/components/Deployment.md",
+    "Devops/container orchestration/kubernetes(k8s)/components/Horizontal Pod AutoScaler (HPA).md",
+    "Devops/container orchestration/kubernetes(k8s)/components/Namespace.md"
   ]
 }

@@ -1,8 +1,10 @@
 # Namespace
 
-- To create your workspace. For example: for `dev`, `staging`
+## Purpose
 
-## Command
+To isolo your workspace. For example: for `dev`, `staging` & `prod`
+
+## Interacting with namespace
 
 - Create a namespace
 
@@ -26,6 +28,6 @@ kubectl get pods -n <namespace>
 
 ```yml
 api:
-kind
+kind:
 namespace: 'dev'
 ```

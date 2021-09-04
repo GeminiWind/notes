@@ -23,11 +23,7 @@ kubectl create configmap game-config-2 --from-file=configure-pod-container/confi
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  creationTimestamp: 2016-02-18T18:54:22Z
   name: game-config-3
-  namespace: default
-  resourceVersion: "530"
-  uid: 05f8da22-d671-11e5-8cd0-68f728db1985
 data:
   game-special-key: |
     enemies=aliens

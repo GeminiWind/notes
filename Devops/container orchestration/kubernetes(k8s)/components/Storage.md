@@ -3,8 +3,23 @@
 
 
 # Persistent Volume
-- `PersistentVolume` will bound `PersistentVolumeClaim`
-- Best practice: in production, you should use NFS or block storage (AWS EBS)
+-  Below is the basical flow to use storage in K8S. 
+	1. crerate `Persistent Volume`. `Persintent Volume` is applied in cluster level.
+	2. create `PersintentVolumeClaim`(PVC), it's something like smaller unit and is applied in pod level
+	3. mount PVC to your container
+```mermaid
+graph TB
+	PersistentVolume(PersistentVolume) --> PersistentVolumeClaim(PersistentVolumeClaim) -- Attach to Pod --> Pod(Pod)
+```
+-  K8s support variarty of storage:
+	- NFS
+	- Local
+	- AWS EBS
+	- GCP
+	- the list go on
+- Tips:
+	- In produnction, NFS or block storage (AWS EBS) is recommended
+	- Snapshot should be enabled for your volume
 
 ## Example
 

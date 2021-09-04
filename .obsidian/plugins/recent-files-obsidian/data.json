@@ -1,6 +1,66 @@
 {
   "recentFiles": [
     {
+      "basename": "Storage",
+      "path": "Devops/container orchestration/kubernetes(k8s)/components/Storage.md"
+    },
+    {
+      "basename": "Service",
+      "path": "Devops/container orchestration/kubernetes(k8s)/components/Service.md"
+    },
+    {
+      "basename": "Secret",
+      "path": "Devops/container orchestration/kubernetes(k8s)/components/Secret.md"
+    },
+    {
+      "basename": "Pod",
+      "path": "Devops/container orchestration/kubernetes(k8s)/components/Pod.md"
+    },
+    {
+      "basename": "Label",
+      "path": "Devops/container orchestration/kubernetes(k8s)/components/Label.md"
+    },
+    {
+      "basename": "CronJob",
+      "path": "Devops/container orchestration/kubernetes(k8s)/components/CronJob.md"
+    },
+    {
+      "basename": "ConfigMap",
+      "path": "Devops/container orchestration/kubernetes(k8s)/components/ConfigMap.md"
+    },
+    {
+      "basename": "Deployment",
+      "path": "Devops/container orchestration/kubernetes(k8s)/components/Deployment.md"
+    },
+    {
+      "basename": "Horizontal Pod AutoScaler (HPA)",
+      "path": "Devops/container orchestration/kubernetes(k8s)/components/Horizontal Pod AutoScaler (HPA).md"
+    },
+    {
+      "basename": "Namespace",
+      "path": "Devops/container orchestration/kubernetes(k8s)/components/Namespace.md"
+    },
+    {
+      "basename": "Deploy application with runtime environtment",
+      "path": "ReactJS/deployment/Deploy application with runtime environtment.md"
+    },
+    {
+      "basename": "Redux",
+      "path": "ReactJS/Redux.md"
+    },
+    {
+      "basename": "Library Cheatsheet",
+      "path": "ReactJS/Library Cheatsheet.md"
+    },
+    {
+      "basename": "Ingress",
+      "path": "Devops/container orchestration/kubernetes(k8s)/components/Ingress.md"
+    },
+    {
+      "basename": "ResourceQuota",
+      "path": "Devops/container orchestration/kubernetes(k8s)/components/ResourceQuota.md"
+    },
+    {
       "basename": "vim",
       "path": "Text Editor/vim.md"
     },
@@ -69,56 +129,12 @@
       "path": "API/GraphQL/GraphQL.md"
     },
     {
-      "basename": "Kubernetes Cheatsheet",
-      "path": "Devops/container orchestration/kubernetes(k8s)/Kubernetes Cheatsheet.md"
-    },
-    {
-      "basename": "Storage",
-      "path": "Devops/container orchestration/kubernetes(k8s)/components/Storage.md"
-    },
-    {
-      "basename": "Service",
-      "path": "Devops/container orchestration/kubernetes(k8s)/components/Service.md"
-    },
-    {
-      "basename": "Pod",
-      "path": "Devops/container orchestration/kubernetes(k8s)/components/Pod.md"
-    },
-    {
-      "basename": "Secret",
-      "path": "Devops/container orchestration/kubernetes(k8s)/components/Secret.md"
-    },
-    {
-      "basename": "Deployment",
-      "path": "Devops/container orchestration/kubernetes(k8s)/components/Deployment.md"
-    },
-    {
-      "basename": "Horizontal Pod AutoScaler (HPA)",
-      "path": "Devops/container orchestration/kubernetes(k8s)/components/Horizontal Pod AutoScaler (HPA).md"
-    },
-    {
-      "basename": "ConfigMap",
-      "path": "Devops/container orchestration/kubernetes(k8s)/components/ConfigMap.md"
-    },
-    {
-      "basename": "CronJob",
-      "path": "Devops/container orchestration/kubernetes(k8s)/components/CronJob.md"
-    },
-    {
       "basename": "Pasted image 20210828153749",
       "path": "Devops/assets/k8s/Pasted image 20210828153749.png"
     },
     {
       "basename": "hpa-arch.png",
       "path": "Devops/assets/k8s/hpa-arch.png.png"
-    },
-    {
-      "basename": "Label",
-      "path": "Devops/container orchestration/kubernetes(k8s)/components/Label.md"
-    },
-    {
-      "basename": "Namespace",
-      "path": "Devops/container orchestration/kubernetes(k8s)/components/Namespace.md"
     },
     {
       "basename": "S3",
@@ -173,32 +189,12 @@
       "path": "Devops/container orchestration/istio/Circuit Breaker.md"
     },
     {
-      "basename": "Ingress",
-      "path": "Devops/container orchestration/kubernetes(k8s)/components/Ingress.md"
-    },
-    {
       "basename": "Circuit breaker",
       "path": "Architecture/Microservice/Circuit breaker.md"
     },
     {
       "basename": "Lambda",
       "path": "AWS/Lambda.md"
-    },
-    {
-      "basename": "Deploy application with runtime environtment",
-      "path": "ReactJS/deployment/Deploy application with runtime environtment.md"
-    },
-    {
-      "basename": "Testing your Terraform",
-      "path": "Devops/provision tool/terraform/Testing your Terraform.md"
-    },
-    {
-      "basename": "Manage Terrafrom State",
-      "path": "Devops/provision tool/terraform/Manage Terrafrom State.md"
-    },
-    {
-      "basename": "SNS",
-      "path": "AWS/SNS.md"
     }
   ],
   "omittedPaths": [],
