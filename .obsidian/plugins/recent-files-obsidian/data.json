@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Architecture",
+      "path": "Devops/container orchestration/kubernetes(k8s)/Kubernetes internal/Architecture.md"
+    },
+    {
       "basename": "GraphQL",
       "path": "API/GraphQL/GraphQL.md"
     },
@@ -42,51 +46,51 @@
     },
     {
       "basename": "Storage",
-      "path": "Devops/container orchestration/kubernetes(k8s)/components/Storage.md"
+      "path": "Devops/container orchestration/kubernetes(k8s)/core components/Storage.md"
     },
     {
       "basename": "Service",
-      "path": "Devops/container orchestration/kubernetes(k8s)/components/Service.md"
+      "path": "Devops/container orchestration/kubernetes(k8s)/core components/Service.md"
     },
     {
       "basename": "Secret",
-      "path": "Devops/container orchestration/kubernetes(k8s)/components/Secret.md"
+      "path": "Devops/container orchestration/kubernetes(k8s)/core components/Secret.md"
     },
     {
       "basename": "Pod",
-      "path": "Devops/container orchestration/kubernetes(k8s)/components/Pod.md"
+      "path": "Devops/container orchestration/kubernetes(k8s)/core components/Pod.md"
     },
     {
       "basename": "Label",
-      "path": "Devops/container orchestration/kubernetes(k8s)/components/Label.md"
+      "path": "Devops/container orchestration/kubernetes(k8s)/core components/Label.md"
     },
     {
       "basename": "CronJob",
-      "path": "Devops/container orchestration/kubernetes(k8s)/components/CronJob.md"
+      "path": "Devops/container orchestration/kubernetes(k8s)/core components/CronJob.md"
     },
     {
       "basename": "ConfigMap",
-      "path": "Devops/container orchestration/kubernetes(k8s)/components/ConfigMap.md"
+      "path": "Devops/container orchestration/kubernetes(k8s)/core components/ConfigMap.md"
     },
     {
       "basename": "Deployment",
-      "path": "Devops/container orchestration/kubernetes(k8s)/components/Deployment.md"
+      "path": "Devops/container orchestration/kubernetes(k8s)/core components/Deployment.md"
     },
     {
       "basename": "Horizontal Pod AutoScaler (HPA)",
-      "path": "Devops/container orchestration/kubernetes(k8s)/components/Horizontal Pod AutoScaler (HPA).md"
+      "path": "Devops/container orchestration/kubernetes(k8s)/core components/Horizontal Pod AutoScaler (HPA).md"
     },
     {
       "basename": "Namespace",
-      "path": "Devops/container orchestration/kubernetes(k8s)/components/Namespace.md"
+      "path": "Devops/container orchestration/kubernetes(k8s)/core components/Namespace.md"
     },
     {
       "basename": "Ingress",
-      "path": "Devops/container orchestration/kubernetes(k8s)/components/Ingress.md"
+      "path": "Devops/container orchestration/kubernetes(k8s)/core components/Ingress.md"
     },
     {
       "basename": "ResourceQuota",
-      "path": "Devops/container orchestration/kubernetes(k8s)/components/ResourceQuota.md"
+      "path": "Devops/container orchestration/kubernetes(k8s)/core components/ResourceQuota.md"
     },
     {
       "basename": "Singleton",
@@ -195,10 +199,6 @@
     {
       "basename": "Gateway",
       "path": "Devops/container orchestration/istio/Gateway.md"
-    },
-    {
-      "basename": "Circuit Breaker",
-      "path": "Devops/container orchestration/istio/Circuit Breaker.md"
     }
   ],
   "omittedPaths": [],
