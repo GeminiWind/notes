@@ -1,4 +1,4 @@
-# Sed
+# sed
 
 ```
 sed option commands [file]

@@ -18,6 +18,13 @@
 
 	```
 
-- When to use: React
+- Example in real-life
+
+```js
+const MyComp = compose(
+ connect(mapStateToProps, mapDispatchToProps),
+ withRouter
+)(Hello)
+```
 
 Tags: #fp

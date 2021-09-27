@@ -1,172 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Architecture",
-      "path": "Devops/container orchestration/kubernetes(k8s)/Kubernetes internal/Architecture.md"
-    },
-    {
-      "basename": "GraphQL",
-      "path": "API/GraphQL/GraphQL.md"
-    },
-    {
-      "basename": "Flux Pattern",
-      "path": "Terminology/Flux Pattern.md"
-    },
-    {
       "basename": "markdown",
       "path": "Text Editor/markdown.md"
-    },
-    {
-      "basename": "vim",
-      "path": "Text Editor/vim.md"
-    },
-    {
-      "basename": "DNS",
-      "path": "Terminology/DNS.md"
-    },
-    {
-      "basename": "Untitled",
-      "path": "Untitled.md"
-    },
-    {
-      "basename": "Tips & Tricks",
-      "path": "ReactJS/Tips & Tricks.md"
-    },
-    {
-      "basename": "Redux",
-      "path": "ReactJS/Redux.md"
-    },
-    {
-      "basename": "Awesome Library",
-      "path": "ReactJS/Awesome Library.md"
-    },
-    {
-      "basename": "Deploy application with runtime environtment",
-      "path": "ReactJS/deployment/Deploy application with runtime environtment.md"
-    },
-    {
-      "basename": "Storage",
-      "path": "Devops/container orchestration/kubernetes(k8s)/core components/Storage.md"
-    },
-    {
-      "basename": "Service",
-      "path": "Devops/container orchestration/kubernetes(k8s)/core components/Service.md"
-    },
-    {
-      "basename": "Secret",
-      "path": "Devops/container orchestration/kubernetes(k8s)/core components/Secret.md"
-    },
-    {
-      "basename": "Pod",
-      "path": "Devops/container orchestration/kubernetes(k8s)/core components/Pod.md"
-    },
-    {
-      "basename": "Label",
-      "path": "Devops/container orchestration/kubernetes(k8s)/core components/Label.md"
-    },
-    {
-      "basename": "CronJob",
-      "path": "Devops/container orchestration/kubernetes(k8s)/core components/CronJob.md"
-    },
-    {
-      "basename": "ConfigMap",
-      "path": "Devops/container orchestration/kubernetes(k8s)/core components/ConfigMap.md"
-    },
-    {
-      "basename": "Deployment",
-      "path": "Devops/container orchestration/kubernetes(k8s)/core components/Deployment.md"
-    },
-    {
-      "basename": "Horizontal Pod AutoScaler (HPA)",
-      "path": "Devops/container orchestration/kubernetes(k8s)/core components/Horizontal Pod AutoScaler (HPA).md"
-    },
-    {
-      "basename": "Namespace",
-      "path": "Devops/container orchestration/kubernetes(k8s)/core components/Namespace.md"
-    },
-    {
-      "basename": "Ingress",
-      "path": "Devops/container orchestration/kubernetes(k8s)/core components/Ingress.md"
-    },
-    {
-      "basename": "ResourceQuota",
-      "path": "Devops/container orchestration/kubernetes(k8s)/core components/ResourceQuota.md"
-    },
-    {
-      "basename": "Singleton",
-      "path": "Architecture/Design Pattern/Creational/Singleton.md"
-    },
-    {
-      "basename": "Prototype",
-      "path": "Architecture/Design Pattern/Creational/Prototype.md"
-    },
-    {
-      "basename": "Abstract Factory",
-      "path": "Architecture/Design Pattern/Creational/Abstract Factory.md"
-    },
-    {
-      "basename": "Builder",
-      "path": "Architecture/Design Pattern/Creational/Builder.md"
-    },
-    {
-      "basename": "Factory",
-      "path": "Architecture/Design Pattern/Creational/Factory.md"
-    },
-    {
-      "basename": "Adapter",
-      "path": "Architecture/Design Pattern/Structural/Adapter.md"
-    },
-    {
-      "basename": "Bridge",
-      "path": "Architecture/Design Pattern/Structural/Bridge.md"
-    },
-    {
-      "basename": "Composite",
-      "path": "Architecture/Design Pattern/Structural/Composite.md"
-    },
-    {
-      "basename": "Decorator",
-      "path": "Architecture/Design Pattern/Structural/Decorator.md"
-    },
-    {
-      "basename": "Proxy",
-      "path": "Architecture/Design Pattern/Structural/Proxy.md"
     },
     {
       "basename": "Tips & Tricks",
       "path": "Shell/Bash/Tips & Tricks.md"
     },
     {
-      "basename": "Heredoc",
-      "path": "Shell/Bash/Heredoc.md"
+      "basename": "Xargs",
+      "path": "Shell/Bash/Xargs.md"
     },
     {
-      "basename": "Sed",
-      "path": "Shell/Bash/Sed.md"
+      "basename": "sed",
+      "path": "Shell/Bash/sed.md"
     },
     {
-      "basename": "Pasted image 20210828153749",
-      "path": "Devops/assets/k8s/Pasted image 20210828153749.png"
-    },
-    {
-      "basename": "hpa-arch.png",
-      "path": "Devops/assets/k8s/hpa-arch.png.png"
-    },
-    {
-      "basename": "S3",
-      "path": "AWS/S3.md"
-    },
-    {
-      "basename": "ECR",
-      "path": "AWS/ECR.md"
-    },
-    {
-      "basename": "Route53",
-      "path": "AWS/Route53.md"
-    },
-    {
-      "basename": "Docker",
-      "path": "Devops/container/Docker.md"
+      "basename": "heredoc",
+      "path": "Shell/Bash/heredoc.md"
     },
     {
       "basename": "Fundamental",
@@ -177,28 +29,176 @@
       "path": "Shell/Bash/Awk.md"
     },
     {
-      "basename": "Xargs",
-      "path": "Shell/Bash/Xargs.md"
+      "basename": "Deploy application with runtime environtment",
+      "path": "ReactJS/deployment/Deploy application with runtime environtment.md"
     },
     {
-      "basename": "Virtual Service",
-      "path": "Devops/container orchestration/istio/Virtual Service.md"
+      "basename": "this in JS",
+      "path": "NodeJS/this in JS.md"
     },
     {
-      "basename": "Traffic Shifting",
-      "path": "Devops/container orchestration/istio/Traffic Shifting.md"
+      "basename": "terminology",
+      "path": "NodeJS/terminology.md"
     },
     {
-      "basename": "Timeout",
-      "path": "Devops/container orchestration/istio/Timeout.md"
+      "basename": "Interesting questions",
+      "path": "NodeJS/Interesting questions.md"
     },
     {
-      "basename": "Retry",
-      "path": "Devops/container orchestration/istio/Retry.md"
+      "basename": "Garbage Collection",
+      "path": "NodeJS/Garbage Collection.md"
     },
     {
-      "basename": "Gateway",
-      "path": "Devops/container orchestration/istio/Gateway.md"
+      "basename": "Event-Loop",
+      "path": "NodeJS/Event-Loop.md"
+    },
+    {
+      "basename": "Closure",
+      "path": "NodeJS/Closure.md"
+    },
+    {
+      "basename": "mark-sweep-compact",
+      "path": "NodeJS/assets/mark-sweep-compact.gif"
+    },
+    {
+      "basename": "event-loop",
+      "path": "NodeJS/assets/event-loop.gif"
+    },
+    {
+      "basename": "closure",
+      "path": "NodeJS/assets/closure.png"
+    },
+    {
+      "basename": "Pure function",
+      "path": "Architecture/Functional Programming/Pure function.md"
+    },
+    {
+      "basename": "Point-free",
+      "path": "Architecture/Functional Programming/Point-free.md"
+    },
+    {
+      "basename": "Pipe",
+      "path": "Architecture/Functional Programming/Pipe.md"
+    },
+    {
+      "basename": "Curry",
+      "path": "Architecture/Functional Programming/Curry.md"
+    },
+    {
+      "basename": "Compose",
+      "path": "Architecture/Functional Programming/Compose.md"
+    },
+    {
+      "basename": "Use GraphQL and REST paralell",
+      "path": "API/GraphQL/Use GraphQL and REST paralell.md"
+    },
+    {
+      "basename": "Using middleware with GraphQL",
+      "path": "API/GraphQL/Using middleware with GraphQL.md"
+    },
+    {
+      "basename": "vim",
+      "path": "Text Editor/vim.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Untitled.md"
+    },
+    {
+      "basename": "Utilities",
+      "path": "Network/Utilities.md"
+    },
+    {
+      "basename": "DHCP",
+      "path": "Network/DHCP.md"
+    },
+    {
+      "basename": "DNS",
+      "path": "Network/DNS.md"
+    },
+    {
+      "basename": "Load Balancer",
+      "path": "Network/Load Balancer.md"
+    },
+    {
+      "basename": "NAT",
+      "path": "Network/NAT.md"
+    },
+    {
+      "basename": "Protocol",
+      "path": "Network/Protocol.md"
+    },
+    {
+      "basename": "Reserve Proxy vs Forward Proxy",
+      "path": "Network/Reserve Proxy vs Forward Proxy.md"
+    },
+    {
+      "basename": "TLS",
+      "path": "Network/TLS.md"
+    },
+    {
+      "basename": "VPN",
+      "path": "Network/VPN.md"
+    },
+    {
+      "basename": "GraphQL",
+      "path": "API/GraphQL/GraphQL.md"
+    },
+    {
+      "basename": "k8s- hpa-arch.png",
+      "path": "Devops/assets/k8s/k8s- hpa-arch.png.png"
+    },
+    {
+      "basename": "k8s- scheduler",
+      "path": "Devops/assets/k8s/k8s- scheduler.png"
+    },
+    {
+      "basename": "k8s-deployment-rolling-update",
+      "path": "Devops/assets/k8s/k8s-deployment-rolling-update.png"
+    },
+    {
+      "basename": "k8s-deplyoment-arch",
+      "path": "Devops/assets/k8s/k8s-deplyoment-arch.png"
+    },
+    {
+      "basename": "Cheatsheet",
+      "path": "Devops/container/docker/Cheatsheet.md"
+    },
+    {
+      "basename": "Docker",
+      "path": "Devops/container/Docker.md"
+    },
+    {
+      "basename": "api-server",
+      "path": "Devops/assets/k8s/api-server.png"
+    },
+    {
+      "basename": "k8s-hpa-single-metric",
+      "path": "Devops/assets/k8s/k8s-hpa-single-metric.png"
+    },
+    {
+      "basename": "k8s-hpa-multiple-metric",
+      "path": "Devops/assets/k8s/k8s-hpa-multiple-metric.png"
+    },
+    {
+      "basename": "k8s-arch",
+      "path": "Devops/assets/k8s/k8s-arch.png"
+    },
+    {
+      "basename": "how-dns-works",
+      "path": "Network/assets/how-dns-works.png"
+    },
+    {
+      "basename": "nat",
+      "path": "Network/assets/nat.png"
+    },
+    {
+      "basename": "foward-proxy",
+      "path": "Network/assets/foward-proxy.png"
+    },
+    {
+      "basename": "telnet",
+      "path": "Network/assets/telnet.gif"
     }
   ],
   "omittedPaths": [],

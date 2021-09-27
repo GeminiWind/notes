@@ -1,4 +1,4 @@
-# Bash heredoc
+# hash heredoc
 ## Syntax
 
 ```sh
