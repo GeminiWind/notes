@@ -1,6 +1,46 @@
 {
   "recentFiles": [
     {
+      "basename": "GraphQL Fundamental",
+      "path": "API/GraphQL/GraphQL Fundamental.md"
+    },
+    {
+      "basename": "Using middleware with GraphQL",
+      "path": "API/GraphQL/Using middleware with GraphQL.md"
+    },
+    {
+      "basename": "Use GraphQL and REST paralell",
+      "path": "API/GraphQL/Use GraphQL and REST paralell.md"
+    },
+    {
+      "basename": "Label",
+      "path": "Devops/container orchestration/kubernetes(k8s)/core components/Label.md"
+    },
+    {
+      "basename": "Architecture",
+      "path": "Devops/container orchestration/kubernetes(k8s)/Kubernetes internal/Architecture.md"
+    },
+    {
+      "basename": "Load Balancer",
+      "path": "Network/Load Balancer.md"
+    },
+    {
+      "basename": "NAT",
+      "path": "Network/NAT.md"
+    },
+    {
+      "basename": "Protocol",
+      "path": "Network/Protocol.md"
+    },
+    {
+      "basename": "Reserve Proxy vs Forward Proxy",
+      "path": "Network/Reserve Proxy vs Forward Proxy.md"
+    },
+    {
+      "basename": "Utilities",
+      "path": "Network/Utilities.md"
+    },
+    {
       "basename": "markdown",
       "path": "Text Editor/markdown.md"
     },
@@ -89,24 +129,12 @@
       "path": "Architecture/Functional Programming/Compose.md"
     },
     {
-      "basename": "Use GraphQL and REST paralell",
-      "path": "API/GraphQL/Use GraphQL and REST paralell.md"
-    },
-    {
-      "basename": "Using middleware with GraphQL",
-      "path": "API/GraphQL/Using middleware with GraphQL.md"
-    },
-    {
       "basename": "vim",
       "path": "Text Editor/vim.md"
     },
     {
       "basename": "Untitled",
       "path": "Untitled.md"
-    },
-    {
-      "basename": "Utilities",
-      "path": "Network/Utilities.md"
     },
     {
       "basename": "DHCP",
@@ -117,32 +145,12 @@
       "path": "Network/DNS.md"
     },
     {
-      "basename": "Load Balancer",
-      "path": "Network/Load Balancer.md"
-    },
-    {
-      "basename": "NAT",
-      "path": "Network/NAT.md"
-    },
-    {
-      "basename": "Protocol",
-      "path": "Network/Protocol.md"
-    },
-    {
-      "basename": "Reserve Proxy vs Forward Proxy",
-      "path": "Network/Reserve Proxy vs Forward Proxy.md"
-    },
-    {
       "basename": "TLS",
       "path": "Network/TLS.md"
     },
     {
       "basename": "VPN",
       "path": "Network/VPN.md"
-    },
-    {
-      "basename": "GraphQL",
-      "path": "API/GraphQL/GraphQL.md"
     },
     {
       "basename": "k8s- hpa-arch.png",
@@ -191,14 +199,6 @@
     {
       "basename": "nat",
       "path": "Network/assets/nat.png"
-    },
-    {
-      "basename": "foward-proxy",
-      "path": "Network/assets/foward-proxy.png"
-    },
-    {
-      "basename": "telnet",
-      "path": "Network/assets/telnet.gif"
     }
   ],
   "omittedPaths": [],
