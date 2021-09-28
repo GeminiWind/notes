@@ -1,6 +1,42 @@
 {
   "recentFiles": [
     {
+      "basename": "Redux",
+      "path": "ReactJS/Redux.md"
+    },
+    {
+      "basename": "Awesome Libraries",
+      "path": "ReactJS/Awesome Libraries.md"
+    },
+    {
+      "basename": "Tips & Tricks",
+      "path": "ReactJS/Tips & Tricks.md"
+    },
+    {
+      "basename": "sed",
+      "path": "Shell/Bash/sed.md"
+    },
+    {
+      "basename": "heredoc",
+      "path": "Shell/Bash/heredoc.md"
+    },
+    {
+      "basename": "Fundamental",
+      "path": "Shell/Bash/Fundamental.md"
+    },
+    {
+      "basename": "Awk",
+      "path": "Shell/Bash/Awk.md"
+    },
+    {
+      "basename": "markdown",
+      "path": "Text Editor/markdown.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Untitled.md"
+    },
+    {
       "basename": "GraphQL Fundamental",
       "path": "API/GraphQL/GraphQL Fundamental.md"
     },
@@ -41,32 +77,12 @@
       "path": "Network/Utilities.md"
     },
     {
-      "basename": "markdown",
-      "path": "Text Editor/markdown.md"
-    },
-    {
       "basename": "Tips & Tricks",
       "path": "Shell/Bash/Tips & Tricks.md"
     },
     {
       "basename": "Xargs",
       "path": "Shell/Bash/Xargs.md"
-    },
-    {
-      "basename": "sed",
-      "path": "Shell/Bash/sed.md"
-    },
-    {
-      "basename": "heredoc",
-      "path": "Shell/Bash/heredoc.md"
-    },
-    {
-      "basename": "Fundamental",
-      "path": "Shell/Bash/Fundamental.md"
-    },
-    {
-      "basename": "Awk",
-      "path": "Shell/Bash/Awk.md"
     },
     {
       "basename": "Deploy application with runtime environtment",
@@ -133,10 +149,6 @@
       "path": "Text Editor/vim.md"
     },
     {
-      "basename": "Untitled",
-      "path": "Untitled.md"
-    },
-    {
       "basename": "DHCP",
       "path": "Network/DHCP.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "k8s-hpa-multiple-metric",
       "path": "Devops/assets/k8s/k8s-hpa-multiple-metric.png"
-    },
-    {
-      "basename": "k8s-arch",
-      "path": "Devops/assets/k8s/k8s-arch.png"
-    },
-    {
-      "basename": "how-dns-works",
-      "path": "Network/assets/how-dns-works.png"
-    },
-    {
-      "basename": "nat",
-      "path": "Network/assets/nat.png"
     }
   ],
   "omittedPaths": [],

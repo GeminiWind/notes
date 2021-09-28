@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "API/GraphQL/GraphQL Fundamental.md",
+            "file": "ReactJS/Redux.md",
             "mode": "preview"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "API/GraphQL/GraphQL Fundamental.md",
+                "file": "ReactJS/Redux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "API/GraphQL/GraphQL Fundamental.md"
+                "file": "ReactJS/Redux.md"
               }
             }
           }
@@ -106,15 +106,15 @@
   },
   "active": "b2784938189d07d3",
   "lastOpenFiles": [
-    "API/GraphQL/GraphQL.md",
-    "API/GraphQL/Using middleware with GraphQL.md",
-    "API/GraphQL/Use GraphQL and REST paralell.md",
-    "Devops/container orchestration/kubernetes(k8s)/core components/Label.md",
-    "Devops/container orchestration/kubernetes(k8s)/Kubernetes internal/Architecture.md",
-    "Network/Load Balancer.md",
-    "Network/NAT.md",
-    "Network/Protocol.md",
-    "Network/Reserve Proxy vs Forward Proxy.md",
-    "Network/Utilities.md"
+    "ReactJS/Redux.md",
+    "ReactJS/Awesome Library.md",
+    "ReactJS/Tips & Tricks.md",
+    "Shell/Bash/sed.md",
+    "Shell/Bash/heredoc.md",
+    "Shell/Bash/Fundamental.md",
+    "Shell/Bash/Awk.md",
+    "Text Editor/markdown.md",
+    "Untitled.md",
+    "API/GraphQL/GraphQL.md"
   ]
 }

@@ -1,4 +1,4 @@
-# Awesome Library
+# Awesome Libraries
 
 ## Redux alternative
 
