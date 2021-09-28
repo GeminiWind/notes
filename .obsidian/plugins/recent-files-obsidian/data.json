@@ -1,52 +1,144 @@
 {
   "recentFiles": [
     {
-      "basename": "Redux",
-      "path": "ReactJS/Redux.md"
+      "basename": "Garbage Collection",
+      "path": "NodeJS/Garbage Collection.md"
     },
     {
-      "basename": "Awesome Libraries",
-      "path": "ReactJS/Awesome Libraries.md"
+      "basename": "Using GraphQL as API Gateway",
+      "path": "API/GraphQL/Using GraphQL as API Gateway.md"
     },
     {
-      "basename": "Tips & Tricks",
-      "path": "ReactJS/Tips & Tricks.md"
-    },
-    {
-      "basename": "sed",
-      "path": "Shell/Bash/sed.md"
-    },
-    {
-      "basename": "heredoc",
-      "path": "Shell/Bash/heredoc.md"
-    },
-    {
-      "basename": "Fundamental",
-      "path": "Shell/Bash/Fundamental.md"
-    },
-    {
-      "basename": "Awk",
-      "path": "Shell/Bash/Awk.md"
-    },
-    {
-      "basename": "markdown",
-      "path": "Text Editor/markdown.md"
-    },
-    {
-      "basename": "Untitled",
-      "path": "Untitled.md"
+      "basename": "Authentication & Authorization in GraphQL",
+      "path": "API/GraphQL/Authentication & Authorization in GraphQL.md"
     },
     {
       "basename": "GraphQL Fundamental",
       "path": "API/GraphQL/GraphQL Fundamental.md"
     },
     {
-      "basename": "Using middleware with GraphQL",
-      "path": "API/GraphQL/Using middleware with GraphQL.md"
+      "basename": "Tips & Tricks",
+      "path": "Shell/Bash/Tips & Tricks.md"
+    },
+    {
+      "basename": "xargs",
+      "path": "Shell/Bash/xargs.md"
+    },
+    {
+      "basename": "sed",
+      "path": "Shell/Bash/sed.md"
+    },
+    {
+      "basename": "Fundamental",
+      "path": "Shell/Bash/Fundamental.md"
+    },
+    {
+      "basename": "Event-Loop",
+      "path": "NodeJS/Event-Loop.md"
+    },
+    {
+      "basename": "Closure",
+      "path": "NodeJS/Closure.md"
+    },
+    {
+      "basename": "mark-sweep-compact",
+      "path": "NodeJS/assets/mark-sweep-compact.gif"
+    },
+    {
+      "basename": "event-loop",
+      "path": "NodeJS/assets/event-loop.gif"
+    },
+    {
+      "basename": "closure",
+      "path": "NodeJS/assets/closure.png"
+    },
+    {
+      "basename": "Prototype Inheritance",
+      "path": "NodeJS/Prototype Inheritance.md"
+    },
+    {
+      "basename": "Metrics",
+      "path": "Architecture/Microservice/Metrics.md"
+    },
+    {
+      "basename": "Distributed tracing",
+      "path": "Architecture/Microservice/Distributed tracing.md"
+    },
+    {
+      "basename": "Deployment strategy",
+      "path": "Architecture/Microservice/Deployment strategy.md"
+    },
+    {
+      "basename": "Database",
+      "path": "Architecture/Microservice/Database.md"
+    },
+    {
+      "basename": "CQRS",
+      "path": "Architecture/Microservice/CQRS.md"
+    },
+    {
+      "basename": "Communication",
+      "path": "Architecture/Microservice/Communication.md"
+    },
+    {
+      "basename": "Circuit breaker",
+      "path": "Architecture/Microservice/Circuit breaker.md"
+    },
+    {
+      "basename": "Centralized logging",
+      "path": "Architecture/Microservice/Centralized logging.md"
+    },
+    {
+      "basename": "Authentication",
+      "path": "Architecture/Microservice/Authentication.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Untitled.md"
+    },
+    {
+      "basename": "vim",
+      "path": "Text Editor/vim.md"
+    },
+    {
+      "basename": "Awesome Libraries",
+      "path": "ReactJS/Awesome Libraries.md"
+    },
+    {
+      "basename": "Deploy application with runtime environtment",
+      "path": "ReactJS/deployment/Deploy application with runtime environtment.md"
+    },
+    {
+      "basename": "this in JS",
+      "path": "NodeJS/this in JS.md"
+    },
+    {
+      "basename": "terminology",
+      "path": "NodeJS/terminology.md"
+    },
+    {
+      "basename": "Redux",
+      "path": "ReactJS/Redux.md"
+    },
+    {
+      "basename": "Tips & Tricks",
+      "path": "ReactJS/Tips & Tricks.md"
     },
     {
       "basename": "Use GraphQL and REST paralell",
       "path": "API/GraphQL/Use GraphQL and REST paralell.md"
+    },
+    {
+      "basename": "markdown",
+      "path": "Markup Language/markdown.md"
+    },
+    {
+      "basename": "Awk",
+      "path": "Shell/Bash/Awk.md"
+    },
+    {
+      "basename": "heredoc",
+      "path": "Shell/Bash/heredoc.md"
     },
     {
       "basename": "Label",
@@ -77,54 +169,6 @@
       "path": "Network/Utilities.md"
     },
     {
-      "basename": "Tips & Tricks",
-      "path": "Shell/Bash/Tips & Tricks.md"
-    },
-    {
-      "basename": "Xargs",
-      "path": "Shell/Bash/Xargs.md"
-    },
-    {
-      "basename": "Deploy application with runtime environtment",
-      "path": "ReactJS/deployment/Deploy application with runtime environtment.md"
-    },
-    {
-      "basename": "this in JS",
-      "path": "NodeJS/this in JS.md"
-    },
-    {
-      "basename": "terminology",
-      "path": "NodeJS/terminology.md"
-    },
-    {
-      "basename": "Interesting questions",
-      "path": "NodeJS/Interesting questions.md"
-    },
-    {
-      "basename": "Garbage Collection",
-      "path": "NodeJS/Garbage Collection.md"
-    },
-    {
-      "basename": "Event-Loop",
-      "path": "NodeJS/Event-Loop.md"
-    },
-    {
-      "basename": "Closure",
-      "path": "NodeJS/Closure.md"
-    },
-    {
-      "basename": "mark-sweep-compact",
-      "path": "NodeJS/assets/mark-sweep-compact.gif"
-    },
-    {
-      "basename": "event-loop",
-      "path": "NodeJS/assets/event-loop.gif"
-    },
-    {
-      "basename": "closure",
-      "path": "NodeJS/assets/closure.png"
-    },
-    {
       "basename": "Pure function",
       "path": "Architecture/Functional Programming/Pure function.md"
     },
@@ -145,10 +189,6 @@
       "path": "Architecture/Functional Programming/Compose.md"
     },
     {
-      "basename": "vim",
-      "path": "Text Editor/vim.md"
-    },
-    {
       "basename": "DHCP",
       "path": "Network/DHCP.md"
     },
@@ -159,46 +199,6 @@
     {
       "basename": "TLS",
       "path": "Network/TLS.md"
-    },
-    {
-      "basename": "VPN",
-      "path": "Network/VPN.md"
-    },
-    {
-      "basename": "k8s- hpa-arch.png",
-      "path": "Devops/assets/k8s/k8s- hpa-arch.png.png"
-    },
-    {
-      "basename": "k8s- scheduler",
-      "path": "Devops/assets/k8s/k8s- scheduler.png"
-    },
-    {
-      "basename": "k8s-deployment-rolling-update",
-      "path": "Devops/assets/k8s/k8s-deployment-rolling-update.png"
-    },
-    {
-      "basename": "k8s-deplyoment-arch",
-      "path": "Devops/assets/k8s/k8s-deplyoment-arch.png"
-    },
-    {
-      "basename": "Cheatsheet",
-      "path": "Devops/container/docker/Cheatsheet.md"
-    },
-    {
-      "basename": "Docker",
-      "path": "Devops/container/Docker.md"
-    },
-    {
-      "basename": "api-server",
-      "path": "Devops/assets/k8s/api-server.png"
-    },
-    {
-      "basename": "k8s-hpa-single-metric",
-      "path": "Devops/assets/k8s/k8s-hpa-single-metric.png"
-    },
-    {
-      "basename": "k8s-hpa-multiple-metric",
-      "path": "Devops/assets/k8s/k8s-hpa-multiple-metric.png"
     }
   ],
   "omittedPaths": [],

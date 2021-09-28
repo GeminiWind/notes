@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "ReactJS/Redux.md",
+            "file": "NodeJS/Garbage Collection.md",
             "mode": "preview"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ReactJS/Redux.md",
+                "file": "NodeJS/Garbage Collection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ReactJS/Redux.md"
+                "file": "NodeJS/Garbage Collection.md"
               }
             }
           }
@@ -106,15 +106,15 @@
   },
   "active": "b2784938189d07d3",
   "lastOpenFiles": [
-    "ReactJS/Redux.md",
-    "ReactJS/Awesome Library.md",
-    "ReactJS/Tips & Tricks.md",
+    "NodeJS/Garbage Collection.md",
+    "API/GraphQL/Untitled.md",
+    "API/GraphQL/Authentication & Authorization in GraphQL.md",
+    "API/GraphQL/GraphQL Fundamental.md",
+    "Shell/Bash/Tips & Tricks.md",
+    "Shell/Bash/xargs.md",
     "Shell/Bash/sed.md",
-    "Shell/Bash/heredoc.md",
+    "Shell/Bash/Xargs.md",
     "Shell/Bash/Fundamental.md",
-    "Shell/Bash/Awk.md",
-    "Text Editor/markdown.md",
-    "Untitled.md",
-    "API/GraphQL/GraphQL.md"
+    "NodeJS/Event-Loop.md"
   ]
 }

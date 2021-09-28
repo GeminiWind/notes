@@ -36,7 +36,7 @@ fi
 
 - `$1`, `$2`, ... `$n` will be paramter which are passed by order ($1 will be first paramter)
 
-```sh
+```bash
 #!/bin/bash
 
 greeting () {

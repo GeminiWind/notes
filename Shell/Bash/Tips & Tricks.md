@@ -21,11 +21,6 @@ cat << EOF > file1.txt
 find -f *.txt | grep "keyword"
 ```
 
-## Using `xargs`
-
-```bash
-find . -type d -name "*log*" | xargs -I {} sh -c "ls -ltr | tail -10"
-```
 
 ## Base-64 encoding
 

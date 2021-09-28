@@ -2,13 +2,13 @@
 
 ## Type Definition
 
-### Field definition
+### Supported type definition
 
 ```graphql
 type Book {
   title: String  # returns a String
   author: Author # returns an Author
-	id: Int # return a signed 32‐bit integer.
+	id: Int # return a signed 32‐bit integer
 	isPublished: Boolean # return a Boolean (true or false)
 	price: Float # signed double-precision floating-point value
 }
@@ -90,6 +90,9 @@ type Mutation {
 	post(url: String!, description: String!): Link!
 }
 ```
+
+
+### input
 
 In case you want to specify input as object for your mutation, you can add `input` for  your mutation
 

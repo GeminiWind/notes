@@ -36,7 +36,7 @@ date updated: '2021-09-04T22:42:15+07:00'
 |  Force quit  |          `:q!`         |
 | Write & quit |          `:wq`         |
 
-# My customs
+# My Vi Command Customization
 
 | Action                                    |          How to archive action         |  Mode  |
 | ----------------------------------------- | :------------------------------------: | :----: |
